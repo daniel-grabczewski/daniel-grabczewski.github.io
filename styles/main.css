@@ -63,10 +63,24 @@ body-index-container {}
   margin-right: 40%;
 }
 
+@media (max-width: 500px) {
+  .nav-logo-container {
+    margin-right: 20%;
+  }
+}
+
+
 .nav-link-container {
   min-width: min-content;
-
+  margin-right: 15px;
 }
+
+.last-nav-link-container {
+  margin-right: 0px;
+}
+
+
+
 
 /*-------------------------------------*/
 
