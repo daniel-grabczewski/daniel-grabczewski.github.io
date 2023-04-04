@@ -5,6 +5,13 @@
   padding: 0;
 }
 
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+}
 
 
 /*-------------------------------------*/
@@ -57,6 +64,7 @@ body-index-container {}
 .heading-container {
   text-align: center;
   margin-bottom: 100px;
+  font-size: 35px;
 }
 
 
@@ -72,9 +80,14 @@ body-index-container {}
 /*-------------------------------------*/
 
 
-.about {}
+.about {
+    background: red;
+    height: 500px;
+}
 
-.about-inner-container {}
+.about-inner-container {
+  display: flex;
+}
 
 .about-info-container {}
 
