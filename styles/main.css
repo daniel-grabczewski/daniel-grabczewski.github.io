@@ -14,6 +14,11 @@ h2 {
 }
 
 
+ul, ol {
+  list-style-position: inside;
+}
+
+
 /*-------------------------------------*/
 
 html-index-container {}
@@ -82,17 +87,31 @@ body-index-container {}
 
 .about {
     background: red;
-    height: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 .about-inner-container {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  width: 750px;
 }
 
-.about-info-container {}
+.about-info-container {
+  background: blue;
+  max-width: 350px;
+  height: min-content;
+}
 
-.about-image-container {}
+.about-image-container {
+  max-width: 350px;
+}
 
+.about-image-container img {
+  max-width:100%;
+}
 
 /*-------------------------------------*/
 
