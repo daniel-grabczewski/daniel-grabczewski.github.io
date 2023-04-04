@@ -1,26 +1,70 @@
- /*
- Add classes for each section... The classes you will need...
+
 
 * {
   margin: 0;
   padding: 0;
 }
 
+
+
+/*-------------------------------------*/
+
 html-index-container {}
+
+body {
+  height: 2000px;
+}
 
 body-index-container {}
 
-.nav {}
 
-.nav-inner-container {}
+/*-------------------------------------*/
 
-.nav-link-container {}
+.nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+  
+
+
+.nav-inner-container {
+  
+  background: lightgray;
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-logo-container {
+  background: orange;
+  margin-right: 20%;
+}
+
+.nav-link-container {
+  background: green;
+  min-width: min-content;
+
+}
+
+/*-------------------------------------*/
 
 .heading-container {}
+
+
+
 
 #heading {}
 
 .section-generic {}
+
+
+/*-------------------------------------*/
 
 
 .about {}
@@ -30,6 +74,9 @@ body-index-container {}
 .about-info-container {}
 
 .about-image-container {}
+
+
+/*-------------------------------------*/
 
 
 .blog-entries {}
@@ -43,6 +90,9 @@ body-index-container {}
 .blog-image-container {}
 
 
+/*-------------------------------------*/
+
+
 .footer {}
 
 .footer-inner-container {}
@@ -51,6 +101,3 @@ body-index-container {}
 
 
 
-
- 
- */
