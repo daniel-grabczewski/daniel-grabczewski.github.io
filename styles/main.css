@@ -40,6 +40,12 @@ body-index-container {}
   width: 100%;
 }
   
+.logo {
+  font-family:monospace;
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 
 .nav-inner-container {
@@ -50,15 +56,14 @@ body-index-container {}
   max-width: 1000px;
   width: 100%;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .nav-logo-container {
-  background: orange;
   margin-right: 40%;
 }
 
 .nav-link-container {
-  background: green;
   min-width: min-content;
 
 }
