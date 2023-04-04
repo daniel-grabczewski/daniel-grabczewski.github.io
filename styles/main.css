@@ -12,7 +12,8 @@
 html-index-container {}
 
 body {
-  height: 2000px;
+  height: 1000px;
+  padding-top: 100px;
 }
 
 body-index-container {}
@@ -26,7 +27,6 @@ body-index-container {}
   position: fixed;
   top: 0;
   width: 100%;
-  margin-bottom: 100px;
 }
   
 
@@ -54,12 +54,17 @@ body-index-container {}
 
 /*-------------------------------------*/
 
-.heading-container {}
+.heading-container {
+  text-align: center;
+  margin-bottom: 100px;
+}
 
 
 
 
-#heading {}
+#heading {
+  
+}
 
 .section-generic {}
 
