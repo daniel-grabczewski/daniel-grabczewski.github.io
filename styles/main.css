@@ -21,7 +21,8 @@ ul, ol {
 
 /*-------------------------------------*/
 
-html-index-container {}
+html {
+}
 
 body {
   padding-top: 100px;
@@ -109,12 +110,20 @@ body-index-container {}
     margin-bottom: 100px;
 }
 
+
+
 .about-inner-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; 
   width: 750px;
+}
+
+@media (max-width: 650px) {
+  .about-inner-container {
+    flex-direction: column;
+}
 }
 
 .about-info-container {
@@ -125,7 +134,7 @@ body-index-container {}
 }
 
 .about-image-container {
-  max-width: 350px;
+  max-width: 370px;
 }
 
 .about-image-container img {
