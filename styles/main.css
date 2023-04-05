@@ -21,8 +21,7 @@ ul, ol {
 
 /*-------------------------------------*/
 
-html {
-}
+html-index-container {}
 
 body {
   padding-top: 100px;
@@ -118,20 +117,12 @@ section {
     margin-bottom: 100px;
 }
 
-
-
 .about-inner-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; 
   width: 100%;
-}
-
-@media (max-width: 650px) {
-  .about-inner-container {
-    flex-direction: column;
-}
 }
 
 .about-info-container {
@@ -142,7 +133,7 @@ section {
 }
 
 .about-image-container {
-  max-width: 370px;
+  max-width: 350px;
 }
 
 .about-image-container img {
