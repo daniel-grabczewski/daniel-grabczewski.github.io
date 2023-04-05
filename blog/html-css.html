@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/blog.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes vs ids</title>
+</head>
+
+<nav class = "nav">
+  <div class = "nav-inner-container">
+    <div class = "nav-logo-container">
+      <p class = "logo">Daniel's World</p>
+    </div>        
+    <div class = "nav-link-container">
+      <a href="../index.html#home" target="_blank">Home</a><!--Home  -->
+    </div>
+    <div class = "nav-link-container">
+      <a href="../index.html#about" target="_blank">About</a><!--About  -->
+    </div>
+    <div class = "nav-link-container last-nav-link-container">
+      <a href="../index.html#blogs" target="_blank">Blogs</a><!--Blogs  -->
+    </div>
+  </div>
+</nav>
+
+<body>
+  
+  <div class = "blog-content">
+    <h1 class = "blog-h1">What are the best practices associated with using classes vs ids?</h1>
+
+
+    <h2 class = "blog-h2">Best practises for using classes</h2>
+
+    <p>When you have multiple HTML elements that you want to style in a similar manner (e.g. give a particular set of elements the same background color), you should give each one of them the same class.</p>
+
+    <p>For example, if your website is made of multiple divs, and you want each div to have a red background, you could create a class called section.</p>
+
+    <figure class = "blog-figure">
+    <img src="../images/blog-images/html-div-section-class-code-snippet.jpg" alt="">
+    <figcaption>A div section in html that we've added the class "section" to.</figcaption>
+  </figure>
+
+    <p>In the section class, you could write the CSS code: "background: red;". </p>
+
+    <figure class = "blog-figure">
+      <img src="../images/blog-images/section-class-code-snippet.jpg" alt="">
+      <figcaption>The code we would add in our CSS file to style the "section" class.</figcaption>
+    </figure>
+
+    <p>After applying the "section" class to every div, they will all have a <span style = "background: red">red background.</span></p>
+
+    
+
+    <h2 class = "blog-h2">Best practises for using ids</h2>
+    <p>On the other hand, an id should only be used when you want to style one particular element. An id should not be used on multiple elements. For example, if you know your page will only have one h1 header, then you could use an id on that h1 for styling.</p>
+
+ 
+
+    <p>So, if you want to style that one particular h1 so that it has a red font color, you could create an id called “heading”.</p>
+
+    <figure class = "blog-figure">
+      <img src="../images/blog-images/h1-id-code-snippet.jpg" alt="">
+      <figcaption>An h1 section in html that we've added the id "heading" to.</figcaption>
+    </figure>
+
+    <p>Then, after you apply the “heading” id to the h1, you can add the following code for the id: “color: red;”</p>
+
+    <figure class = "blog-figure">
+      <img src="../images/blog-images/h1-id-css-code-snippet.jpg" alt="">
+      <figcaption>The code we would add in our CSS file to style the "section" class.</figcaption>
+    </figure>
+
+    <p>After applying the "heading" id to the h1, it will now have a <span style = "color: red;">red font color.</span></p>
+  </div>
+
+
+
+
+</body>
+</html>
