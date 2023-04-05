@@ -23,12 +23,17 @@ ul, ol {
 
 html-index-container {}
 
+html {
+}
+
 body {
   padding-top: 100px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 body-index-container {}
@@ -57,7 +62,6 @@ section {
 
 
 .nav-inner-container {
-  
   background: lightgray;
   display: flex;
   flex-direction: row;
@@ -66,6 +70,12 @@ section {
   justify-content: space-between;
   padding: 20px;
 }
+
+.nav-inner-container a {
+  color: black;
+}
+
+
 
 .nav-logo-container {
   margin-right: 40%;
@@ -115,6 +125,7 @@ section {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    max-width: 750px;
 }
 
 .about-inner-container {
@@ -125,6 +136,14 @@ section {
   width: 100%;
 }
 
+@media (max-width: 650px) {
+  .about-inner-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
+
 .about-info-container {
   background: lightgray;
   padding: 10px;
@@ -132,8 +151,10 @@ section {
   height: min-content;
 }
 
+
+
 .about-image-container {
-  max-width: 350px;
+  max-width: 370px;
 }
 
 .about-image-container img {
@@ -148,7 +169,7 @@ section {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-  width: 750px;
+  max-width: 750px;
 }
 
 
@@ -202,7 +223,15 @@ section {
 
 .footer {
   background: lightgray;
-  height: 100px;
+  height: auto;
+  height: 40px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.footer a {
+  color: black;
 }
 
 .footer-inner-container {
@@ -218,5 +247,19 @@ section {
   height: min-content;
 }
 
+@media (max-width: 850px) {
+
+    .footer {
+      height: 150px;
+    }
+
+  .footer-inner-container {
+    flex-direction: column;
+  }
+
+  .footer-link-container {
+      margin-bottom: 10px;
+  }
+}
 
 
