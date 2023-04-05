@@ -11,22 +11,13 @@
   margin-top: 5px;
 }
 
-.blog-h1 {
+.blog-content h1 {
   font-size: 45px;
 }
 
-.blog-h2 {
+.blog-content h2 {
   margin-bottom: 10px;
   margin-top: 50px;
-}
-
-
-.section {
-    background : red;
-}
-
-#heading {
-  color: red;
 }
 
 .blog-figure {
