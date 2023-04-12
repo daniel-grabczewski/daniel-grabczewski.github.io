@@ -11,6 +11,11 @@
   margin-top: 5px;
 }
 
+.blog-content ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .blog-content h1 {
   font-size: 45px;
 }
@@ -19,6 +24,7 @@
   margin-bottom: 10px;
   margin-top: 50px;
 }
+
 
 .blog-figure {
   margin-right: auto;

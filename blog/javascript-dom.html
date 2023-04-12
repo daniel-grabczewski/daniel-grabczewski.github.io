@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/blog.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM</title>
+</head>
+
+<nav class = "nav">
+  <div class = "nav-inner-container">
+    <div class = "nav-logo-container">
+      <p class = "logo">Daniel's World</p>
+    </div>        
+    <div class = "nav-link-container">
+      <a href="../index.html#home">Home</a><!--Home  -->
+    </div>
+    <div class = "nav-link-container">
+      <a href="../index.html#about">About</a><!--About  -->
+    </div>
+    <div class = "nav-link-container last-nav-link-container">
+      <a href="../index.html#blogs">Blogs</a><!--Blogs  -->
+    </div>
+  </div>
+</nav>
+
+<body>
+  
+  <div class = "blog-content">
+    <h1 class = "blog-h1">Technical Blog - JS Fundamentals</h1>
+
+    <!-- ////////////////////////////////////////// -->
+
+    <h2 class = "blog-h2">What’s an analogy to describe JavaScript and its relationship to HTML and CSS?</h2>
+
+    <p>HTML is like a noun. It is something physical and concrete. CSS is like an adjective, something to describe a noun. It can make the noun look more interesting. And JavaScript is like a verb, the movement of a noun. It turns the noun into something dynamic and alive.</p>
+    <br>
+    <p>If we take the sentence: “The purple cow jumped”:</p>
+    <ul>
+      <li>The cow is HTML. It is a noun. </li>
+      <li>The purple colour of the cow is CSS. It is an adjective.</li>
+      <li>The jump is JavaScript. It brings the noun to life.</li>
+    </ul>
+
+    <!-- ////////////////////////////////////////// -->
+
+    <h2 class = "blog-h2">Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</h2>
+
+    <p><span style = "font-weight: bold">Control flow</span> is the order that things happen in your day. For example: </p>
+
+    <ul>
+      <li>You eat breakfast.</li>
+      <li>You go to work/study.</li>
+      <li>You go to sleep.</li>
+      <li>You eat breakfast.</li>
+      <li>You go to work/study.</li>
+      <li>You go to sleep.</li>
+      <li>Etc...</li>
+    </ul>
+    <p>This is the order of things that life has decided. You cannot go back to eat breakfast until you go to sleep. And you cannot study after you go to sleep.</p>
+    <p>That is like the control flow of a programming language. The tasks in the programming language will always happen in a specific order, just like the tasks in your life will.</p>
+    <br>
+    <p><span style = "font-weight: bold">A loop</span> is a series of repetitive tasks that must be completed. For example, when you are emptying the dishwasher. You are in a loop of removing everything in the dishwasher, one item after another. The loop only finishes after the dishwasher is empty.</p>
+
+    <!-- ////////////////////////////////////////// -->
+
+    <h2>Describe what the DOM is and an example of how you might interact with it.</h2>
+    <p>The DOM is like a tree of everything that makes up an HTML document on the web. The first branch that splits into multiple branches is HTML. The HTML branch splits into other branches, such as HEAD, BODY and FOOTER. These other branches split into more branches, and those branches split into more branches, and so on.</p>
+    <figure class = "blog-figure">
+      <img src="../images/javascript-dom/DOMtree.png" alt="">
+      <figcaption>Each branch is an element of a web page.</figcaption>
+    </figure>
+
+    <p>An example of interacting with the DOM would be changing what one of the branches look like.</p>
+    <p>For example, if one branch of the DOM is a paragraph, we can change the content of that paragraph to something else</p>
+
+    <!-- ////////////////////////////////////////// -->
+
+    <h2>Explain the difference between accessing data from arrays and objects.</h2>
+    <p>An array is a storage of multiple values. They are ordered by an index. The first value in an array has an index of 0. The second has an index of 1. The third has an index of 2… and so on.</p>
+
+    <figure class = "blog-figure">
+      <img src="../images/javascript-dom/array-example.png" alt="">
+      <figcaption>An example of an array.</figcaption>
+    </figure>
+
+    <p>An object is also a storage of multiple values. However, they aren’t ordered by index. They aren’t ordered by anything at all. Instead, each value is accessed by a matching key. So, if you know the key of the value you want, you can access it that value with the key. This is called a key-value pair.</p>
+
+    <figure class = "blog-figure">
+      <img src="../images/javascript-dom/object.example.png" alt="">
+      <figcaption>An example of an object.</figcaption>
+    </figure>
+
+
+    <!-- ////////////////////////////////////////// -->
+  
+    <h2>Explain what functions are and why they are helpful.</h2>
+    <p>A function is a task you can give to a computer to do for you. It can do a complete a task and give you a result that depends on the values you give it.</p>
+    <p>For example: you can give this function two numbers, and it will return the sum of those two numbers:</p>
+    <figure class = "blog-figure">
+      <img src="../images/javascript-dom/function1-example.png" alt="">
+      <figcaption>An example of a function that takes two numbers and outputs a sum.</figcaption>
+    </figure>
+
+    <p>A function doesn’t need to take values, however. It can just do the exact same task with the exact same result every time you use it.</p>
+    <p>For example: This function will simply print out “Hello there!” to the console every time you use it.</p>
+
+    <figure class = "blog-figure">
+      <img src="../images/javascript-dom/function2-example.png" alt="">
+      <figcaption>An example of a function that prints out "Hello there!" to the console.</figcaption>
+    </figure>
+
+    <p>Functions are useful because they save us a lot of time. If we have a task we need to do multiple times, rather than write out the code for the task every time, we can just use the function every time instead.</p>
+
+    <p>Also, if we ever want to change the repetitive task, rather than change it on every instance, we can just change it in the single function that is reused. Because of this, we also save time and our code is more easily updated.</p>
+
+  </div>
+
+</body>
+</html>
+
+<!--
+<figure class = "blog-figure">
+  <img src="../images/" alt="">
+  <figcaption>INSERT</figcaption>
+</figure>
+
+-->
