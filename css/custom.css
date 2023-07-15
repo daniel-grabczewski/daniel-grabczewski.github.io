@@ -4,8 +4,10 @@
 
 .portfolio-project-container {
   display: flex;
+  flex-direction : row;
   max-width : 100%;
-  gap : 70px
+  gap : 70px;
+  margin-bottom : 200px;
 }
 
 .portfolio-left-container {
