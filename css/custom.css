@@ -1,26 +1,22 @@
-
-/** ADD YOUR AWESOME CODES HERE **/
-
-
 .portfolio-project-container {
   display: flex;
-  flex-direction : row;
-  max-width : 100%;
-  gap : 70px;
-  margin-bottom : 200px;
+  flex-direction: row;
+  max-width: 100%;
+  gap: 70px;
+  margin-bottom: 200px;
 }
 
 .portfolio-left-container {
-  max-width : 50%;
+  max-width: 50%;
   display: flex;
-  flex-direction : column;
+  flex-direction: column;
   justify-content: center;
 }
 
 .portfolio-right-container {
-  max-width : 50%;
+  max-width: 50%;
   display: flex;
-  flex-direction : column;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -29,3 +25,25 @@
   height: auto;
   box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.2);
 }
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+
+  .portfolio-project-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    gap: 30px; /* Reduce the gap between elements */
+  }
+
+  .portfolio-left-container,
+  .portfolio-right-container {
+    max-width: 100%; /* Each container takes full width on smaller screens */
+  }
+
+  .reverse-image {
+    order : 2
+  }
+
+}
+
+
