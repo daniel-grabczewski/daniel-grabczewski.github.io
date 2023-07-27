@@ -33,6 +33,7 @@
   .portfolio-project-container {
     flex-direction: column; /* Stack elements vertically on smaller screens */
     gap: 30px; /* Reduce the gap between elements */
+    margin-bottom: 100px;
   }
 
   .portfolio-left-container,
@@ -43,6 +44,8 @@
   .reverse-image {
     order : 2
   }
+
+
 
 }
 
