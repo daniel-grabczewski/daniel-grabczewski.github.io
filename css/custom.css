@@ -27,6 +27,10 @@
   border-radius: 5px;
 }
 
+.portfolio-section-title {
+  font-size : 60px;
+  margin-bottom : 80px;
+}
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -38,16 +42,26 @@
   }
 
   .portfolio-left-container,
-  .portfolio-right-container {
-    max-width: 100%; /* Each container takes full width on smaller screens */
+  .portfolio-right-container,
+  .portfolio-section-title-container {
+    max-width: 90%;
+    margin-right : auto;
+    margin-left: auto; 
+  }
+  .portfolio-left-container {
+    order : 2;
   }
 
-  .reverse-image {
-    order : 2
+  .portfolio-section-title {
+    
+    margin-bottom : 50px;
+
+    font-size : 50px;
   }
 
-
-
+  
+  
+  
 }
 
 
