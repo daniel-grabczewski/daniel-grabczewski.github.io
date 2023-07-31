@@ -64,7 +64,7 @@
   }
 
   .project-divider-container {
-    display: flex; /* Use flexbox to align items horizontally */
+    display: flex; 
     align-items: center;
     height : min-content;
   }
