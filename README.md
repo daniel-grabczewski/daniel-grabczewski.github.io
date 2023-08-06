@@ -1,3 +1,3 @@
 # portfolio
 
-Welcome to my portfolio. My name is Daniel.
+Welcome to my portfolio. My name is Daniel :)
