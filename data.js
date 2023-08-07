@@ -1,4 +1,4 @@
-export default projects = [
+var projects = [
   {
     title: 'E-commerce app',
     description:
