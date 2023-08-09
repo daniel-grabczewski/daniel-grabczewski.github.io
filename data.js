@@ -12,7 +12,7 @@ var projects = [
     title: 'Todo list',
     description:
       'This Todo List project aimed to provide practical experience in task management. A challenge we encountered was creating an intuitive user interface that streamlined task organization. We focused on designing a system that allowed users to prioritize tasks, set priorities, and filter their to-do items effectively. Overall, we are proud of the outcome of our Todo List project and excited for you to explore it. It allowed us to gain insights into task management systems while refining our skills. Give it a try and discover how it can enhance your productivity and organization!',
-    technologies: 'React, Typescript, SQLite, HTML, CSS',
+    technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todo-full-stack',
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-todo-cover.jpg',
