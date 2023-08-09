@@ -6,7 +6,7 @@ var projects = [
     technologies: 'React, Typescript, SQLite, Vite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/portfolio/636355db4262d6c1a7412d796c98eae859da4869/uploads/project-bnana-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-bnana-cover.jpg',
   },
   {
     title: 'Todo list',
@@ -15,7 +15,7 @@ var projects = [
     technologies: 'React, Typescript, SQLite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todo-full-stack',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/portfolio/3637ce6cc180f0ef6dc11f2934acae73e07c188e/uploads/project-todo-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-todo-cover.jpg',
   },
   {
     title: 'Painting app',
@@ -24,6 +24,6 @@ var projects = [
     technologies: 'React, Typescript, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/paint-my-museic',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/portfolio/4627229b6a3c188b86bc93e66071c10edffea23f/uploads/project-paint-my-museic-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-paint-my-museic-cover.jpg',
   },
 ]
