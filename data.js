@@ -6,7 +6,7 @@ var projects = [
     technologies: 'React, Typescript, SQLite, Vite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-bnana-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8f9d8308254c693b587b5c813901eb1b2fd9f89c/uploads/project-bnana-cover.jpg',
   },
   {
     title: 'Todo list',
