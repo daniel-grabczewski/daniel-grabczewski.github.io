@@ -112,32 +112,32 @@
 
 <!-- PROJECTS -->
 <script id="project-template" type="text/x-handlebars-template">
-  {{#each projects}}
-  <div class="portfolio-project-container {{#if (isEven @index)}}reverse-project-containers{{/if}}">
-    <h2 class="mobile-title">{{title}}</h2>
-    <div class="portfolio-left-container">
-      <h2 class="desktop-title">{{title}}</h2>
-      <p>{{description}}</p>
-      <p><strong>Technologies used:</strong> {{technologies}}</p>
-      <a href="{{githubLink}}" class="sim-btn btn-hover-new" target="_blank" style="margin-left: 0px"><span>View Source Code</span></a>
-    </div>
-    <div class="portfolio-right-container">
-      <img class="portfolio-image" src="{{image}}" alt="{{title}}">
-    </div>
+{{#each projects}}
+<div class="portfolio-project-container {{#if (isEven @index)}}reverse-project-containers{{/if}}">
+  <h2 class="mobile-title">{{title}}</h2>
+  <div class="portfolio-left-container">
+    <h2 class="desktop-title">{{title}}</h2>
+    <p>{{description}}</p>
+    <p><strong>Technologies used:</strong> {{technologies}}</p>
+    <a href="{{githubLink}}" class="sim-btn btn-hover-new" target="_blank" style="margin-left: 0px"><span>View Source Code</span></a>
   </div>
-  <div class="project-divider-container">
-    <div class="divider"></div>
+  <div class="portfolio-right-container">
+    <img class="portfolio-image" src="{{image}}" alt="{{title}}">
   </div>
-  {{/each}}
+</div>
+<div class="project-divider-container">
+  <div class="divider"></div>
+</div>
+{{/each}}
 </script>
-	
 
 <div id="portfolio" class="section lb">
   <div class="container">
     <div class = "portfolio-section-title-container">
               <h2 class = "portfolio-section-title">My work</h2>
-              <div id="portfolio-projects"></div>
+              
           </div>
+          <div id="portfolio-projects"></div>
 </div>
 </div>
 
