@@ -108,9 +108,9 @@
 
 
 
-  <script id="project-template" type="text/x-handlebars-template">
+ <script id="project-template" type="text/x-handlebars-template">
     {{#each projects}}
-      <div class="portfolio-project-container">
+    <div class="portfolio-project-container {{#if (isOdd @index)}}reverse-project-containers{{/if}}">
         <div class="portfolio-left-container">
           <h2>{{title}}</h2>
           <p>{{description}}</p>
