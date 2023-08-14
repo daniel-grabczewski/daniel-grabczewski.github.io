@@ -113,7 +113,7 @@
 <!-- PROJECTS -->
 <script id="project-template" type="text/x-handlebars-template">
 {{#each projects}}
-<div class="portfolio-project-container {{#if (isEven @index)}}reverse-project-containers{{/if}}">
+<div class="portfolio-project-container {{#if (isOdd @index)}}reverse-project-containers{{/if}}">
   <h2 class="mobile-title">{{title}}</h2>
   <div class="portfolio-left-container">
     <h2 class="desktop-title">{{title}}</h2>
