@@ -8,16 +8,17 @@ p {
 
 .portfolio-project-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 48% 48%;
   grid-template-rows: auto; /* Only one row */
   max-width: 100%;
-  gap: 70px;
+  gap: 4%;
   margin-bottom: 200px;
 }
 
 .portfolio-left-container,
 .portfolio-right-container {
   align-self: center; /* Center vertically */
+
 }
 
 .reverse-project-containers {
