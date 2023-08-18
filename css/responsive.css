@@ -50,6 +50,9 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
+  .p {
+    font-size : 16px;
+  }
 }
 @media (max-width: 767px) {
 	#mainNav {
