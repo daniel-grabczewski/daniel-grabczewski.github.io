@@ -45,9 +45,7 @@ p {
   margin-bottom : 80px;
 }
 
-.project-divider-container{
-  display : none;
-}
+
 
 .mobile-title {
   grid-area: mobile;
@@ -120,26 +118,10 @@ p {
 
   .portfolio-left-container,
   .portfolio-right-container,
-  .portfolio-section-title-container,
-  .project-divider-container {
+  .portfolio-section-title-container {
     max-width: 100%;
     margin-right : auto;
     margin-left: auto; 
-  }
-
-  .project-divider-container {
-    display: flex; 
-    align-items: center;
-    height : min-content;
-  }
-
-  .divider {
-    display : block;
-    background : rgb(184, 184, 184);
-    height : 2px;
-    width : 70%;
-    margin-bottom : 50px;
-    margin-right : 15px;
   }
 
   .portfolio-image {
