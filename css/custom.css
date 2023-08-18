@@ -6,6 +6,10 @@ p {
 
 /* PORTFOLIO SECTION  */
 
+.about-me-text {
+  font-size : 20px;
+}
+
 .portfolio-project-container {
   display: grid;
   grid-template-columns: 48% 48%;
