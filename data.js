@@ -24,7 +24,7 @@ var projects = [
     technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todo-full-stack',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-todo-cover.jpg',
+      'uploads/project-todo-cover.svg',
   },
   {
     title: 'Paint My Museic',
