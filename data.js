@@ -11,7 +11,7 @@ var projects = [
   {
     title: 'Boba Buddies (80% Complete)',
     description:
-      "Boba Buddies is an e-commerce platform that brings bubble tea lovers a world of flavors. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.",
+      'Boba Buddies is an e-commerce platform that brings bubble tea lovers a world of flavors. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
     technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
     githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
     image:
@@ -24,7 +24,7 @@ var projects = [
     technologies: 'React, Typescript, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/paint-my-museic',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/02cd502b927bd034af7a92f9a67158d455c917c6/uploads/project-paint-my-museic-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-paint-my-museic-cover.svg',
   },
   {
     title: 'Todo list (Needs Styling Update)',
@@ -34,5 +34,5 @@ var projects = [
     githubLink: 'https://github.com/daniel-grabczewski/todo-full-stack',
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8c87e01142e1a263d3e6841354e809d53b3a5369/uploads/project-todo-cover.svg',
-  }
+  },
 ]
