@@ -9,7 +9,7 @@ var projects = [
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8f9d8308254c693b587b5c813901eb1b2fd9f89c/uploads/project-bnana-cover.jpg',
   },
   {
-    title: 'Boba Buddies (80% Complete)',
+    title: 'Boba Buddies',
     description:
       'Boba Buddies is an e-commerce platform that brings bubble tea lovers a world of flavors. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
     technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
@@ -27,11 +27,11 @@ var projects = [
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-paint-my-museic-cover.svg',
   },
   {
-    title: 'Todo list (Needs Styling Update)',
+    title: 'Todos For The Cosmos (Styling being updated)',
     description:
       'This Todo List project aimed to provide practical experience in task management. A challenge we encountered was creating an intuitive user interface that streamlined task organization. We focused on designing a system that allowed users to prioritize tasks, set priorities, and filter their to-do items effectively. Overall, we are proud of the outcome of our Todo List project and excited for you to explore it. It allowed us to gain insights into task management systems while refining our skills.',
     technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
-    githubLink: 'https://github.com/daniel-grabczewski/todo-full-stack',
+    githubLink: 'https://github.com/daniel-grabczewski/todos-for-the-cosmos',
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8c87e01142e1a263d3e6841354e809d53b3a5369/uploads/project-todo-cover.svg',
   },
