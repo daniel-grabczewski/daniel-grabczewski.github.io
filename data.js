@@ -44,6 +44,6 @@ var projects = [
     technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todos-for-the-cosmos',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8c87e01142e1a263d3e6841354e809d53b3a5369/uploads/project-todo-cover.svg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/36c7d1ca6e5607de924d8dd6d3a6e920d43f7fbc/uploads/project-todo-cover.svg',
   },
 ]
