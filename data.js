@@ -26,7 +26,7 @@ var projects = [
     technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
     githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/d10d2203a572d61d099b42083313bf073725c9e2/uploads/project-boba-buddies-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-boba-business-management-cover.png',
   },
   {
     title: 'Paint My Museic',
