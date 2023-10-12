@@ -38,7 +38,7 @@ var projects = [
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-paint-my-museic-cover.svg',
   },
   {
-    title: 'Todos For The Cosmos (Styling being updated)',
+    title: 'Todos For The Cosmos',
     description:
       'This Todo List project aimed to provide practical experience in task management. A challenge we encountered was creating an intuitive user interface that streamlined task organization. We focused on designing a system that allowed users to prioritize tasks, set priorities, and filter their to-do items effectively. Overall, we are proud of the outcome of our Todo List project and excited for you to explore it. It allowed us to gain insights into task management systems while refining our skills.',
     technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
