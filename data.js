@@ -22,7 +22,7 @@ var projects = [
   {
     title: 'Boba Business Management',
     description:
-      'Boba Business Management is an Business Management Platform that allows authenticated users to modify &add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
+      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
     technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
     githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
     image:
