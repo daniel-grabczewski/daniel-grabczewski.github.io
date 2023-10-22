@@ -1,9 +1,9 @@
 var projects = [
   {
-    title: 'Bnana',
+    title: 'Bnana Online Fruit Store',
     description:
-      "Bnanas is an e-commerce app that sells exotic bananas. We created this app because we wanted to learn how e-commerce works and get practical experience. While working on this project, we faced some challenges and learned a lot. One thing I realized is that we needed to communicate and work more efficiently as a team. If we had clearer roles and knew who was responsible for what, it would have made things go smoother. Overall, I am very happy with how this project turned out and I'm excited for you to check it out!",
-    technologies: 'React, Typescript, SQLite, Vite, HTML, CSS',
+      'Bnanas is an e-commerce app that sells exotic bananas. We created this app because we wanted to learn how e-commerce works and get practical experience. While working on this project, we learned a lot about delegating roles and playing to our strengths. But at the same time, we made sure we were all actively collaborating and communicating. Through combining these two philosophies, we were able to work productively and effectively.',
+    technologies: 'React, Typescript, SQLite, Vite, Auth0, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8f9d8308254c693b587b5c813901eb1b2fd9f89c/uploads/project-bnana-cover.jpg',
@@ -23,10 +23,10 @@ var projects = [
     title: 'Boba Business Management',
     description:
       'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
-    technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
+    technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
     githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-boba-business-management-cover.png',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-boba-business-management-cover.png',
   },
   {
     title: 'Paint My Museic',
@@ -35,15 +35,15 @@ var projects = [
     technologies: 'React, Typescript, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/paint-my-museic',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-paint-my-museic-cover.svg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-paint-my-museic-cover.svg',
   },
   {
     title: 'Todos For The Cosmos',
     description:
-      'This Todo List project aimed to provide practical experience in task management. A challenge we encountered was creating an intuitive user interface that streamlined task organization. We focused on designing a system that allowed users to prioritize tasks, set priorities, and filter their to-do items effectively. Overall, we are proud of the outcome of our Todo List project and excited for you to explore it. It allowed us to gain insights into task management systems while refining our skills.',
-    technologies: 'React, Redux, Typescript, SQLite, HTML, CSS',
+      'This Todo List project aimed to turn a typical task management app into an ethereal experience, allowing you to create todos while being one with the cosmos. A challenge I encountered was creating the aurora borealis that was always morphing in the background. After much trial and error, and encountering a lot of performance issues, I combined GSAP (Greensock) and Granim to create butter-smooth animations. Overall, I am proud of the outcome of this mystical Todo List project and excited for you to check it out.',
+    technologies: 'React, Redux, Typescript, SQLite, GSAP, Granim, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todos-for-the-cosmos',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/36c7d1ca6e5607de924d8dd6d3a6e920d43f7fbc/uploads/project-todo-cover.svg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-todo-cover.svg',
   },
 ]
