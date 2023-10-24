@@ -35,7 +35,7 @@ var projects = [
     technologies: 'React, Typescript, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/paint-my-museic',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-paint-my-museic-cover.svg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8b3d051884e29ddbd74f4359f0d3536eb1440370/uploads/project-paint-my-museic-cover.svg',
   },
   {
     title: 'Todos For The Cosmos',
