@@ -1,5 +1,14 @@
 var projects = [
   {
+    title: 'Boba Business Management',
+    description:
+      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
+    technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
+    githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
+    image:
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-boba-business-management-cover.png',
+  },
+  {
     title: 'Bnana Online Fruit Store',
     description:
       'Bnanas is an e-commerce app that sells exotic bananas. We created this app because we wanted to learn how e-commerce works and get practical experience. While working on this project, we learned a lot about delegating roles and playing to our strengths. But at the same time, we made sure we were all actively collaborating and communicating. Through combining these two philosophies, we were able to work productively and effectively.',
@@ -19,15 +28,6 @@ var projects = [
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/d10d2203a572d61d099b42083313bf073725c9e2/uploads/project-boba-buddies-cover.jpg',
   },
   */
-  {
-    title: 'Boba Business Management',
-    description:
-      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
-    technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
-    githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
-    image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-boba-business-management-cover.png',
-  },
   {
     title: 'Paint My Museic',
     description:
