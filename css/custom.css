@@ -22,7 +22,11 @@ p {
 .portfolio-left-container,
 .portfolio-right-container {
   align-self: center; /* Center vertically */
+}
 
+.has-demo-link {
+  position: relative; /* Ensure this is set */
+  cursor: pointer;
 }
 
 .reverse-project-containers {
@@ -38,6 +42,10 @@ p {
   height: auto;
   box-shadow: 5px 15px 15px rgba(46, 46, 46, 0.2);
   border-radius: 5px;
+}
+
+.has-demo-link .portfolio-image {
+  transition: filter 0.3s;
 }
 
 .portfolio-section-title {
@@ -64,7 +72,28 @@ p {
   grid-area: right;
 }
 
+.has-demo-link:hover .portfolio-image {
+  filter: brightness(50%);
+}
 
+.portfolio-right-container a {
+  display: block;
+}
+
+.has-demo-link .view-demo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.has-demo-link:hover .view-demo-text {
+  opacity: 1;
+}
 
 
 /* Media query for smaller screens */
