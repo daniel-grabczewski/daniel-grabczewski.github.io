@@ -73,7 +73,7 @@ p {
 }
 
 .has-demo-link:hover .portfolio-image {
-  filter: brightness(50%);
+  filter: brightness(40%);
 }
 
 .portfolio-right-container a {
@@ -86,7 +86,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   opacity: 0;
   transition: opacity 0.3s;
 }
