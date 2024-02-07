@@ -10,6 +10,8 @@ p {
   font-size : 20px;
 }
 
+
+
 .portfolio-project-container {
   display: grid;
   grid-template-columns: 48% 48%;
@@ -53,7 +55,9 @@ p {
   margin-bottom : 80px;
 }
 
-
+.project-description {
+  margin-bottom : 20px;
+}
 
 .mobile-title {
   grid-area: mobile;
