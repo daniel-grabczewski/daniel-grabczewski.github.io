@@ -2,7 +2,7 @@ var projects = [
   {
     title: 'Boba Business Management',
     description:
-      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
+      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews.',
     technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
     githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
     demoLink: '',
@@ -12,7 +12,7 @@ var projects = [
   {
     title: 'Bnana Online Fruit Store',
     description:
-      'Bnanas is an e-commerce app that sells exotic bananas. We created this app because we wanted to learn how e-commerce works and get practical experience. While working on this project, we learned a lot about delegating roles and playing to our strengths. But at the same time, we made sure we were all actively collaborating and communicating. Through combining these two philosophies, we were able to work productively and effectively.',
+      'Bnanas is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.',
     technologies: 'React, Typescript, SQLite, Vite, Auth0, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     demoLink: 'https://daniel-grabczewski.github.io/bnanas-demo/',
@@ -33,7 +33,7 @@ var projects = [
   {
     title: 'Paint My Museic',
     description:
-      'Paint My Museic is an exciting web app that blends the joy of painting with the magic of music. My motivation behind this project was to explore the fusion of colors and melodies, creating a unique artistic experience; while painting with each color, a song will play specific to that color! Throughout our journey, I encountered challenges that helped me grow. One valuable lesson I learned was the importance of optimizing performance to ensure smooth interaction between painting and music.',
+      'Paint My Museic is an exciting web app that blends the joy of painting with the magic of music, creating a unique artistic experience - while painting with each colour, a song will play specific to that colour!',
     technologies: 'React, Typescript, HTML, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/paint-my-museic',
     demoLink: 'https://daniel-grabczewski.github.io/paint-my-museic-v2/',
@@ -43,7 +43,7 @@ var projects = [
   {
     title: 'Todos For The Cosmos',
     description:
-      'This Todo List project aimed to turn a typical task management app into an ethereal experience, allowing you to create todos while being one with the cosmos. A challenge I encountered was creating the aurora borealis that was always morphing in the background. After much trial and error, and encountering a lot of performance issues, I combined GSAP (Greensock) and Granim to create butter-smooth animations. Overall, I am proud of the outcome of this mystical Todo List project and excited for you to check it out.',
+      'This Todo List project aimed to turn a typical task management app into an ethereal experience, allowing you to create todos while being one with the cosmos, through a breathtaking UI and animations.',
     technologies: 'React, Redux, Typescript, SQLite, GSAP, Granim, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/todos-for-the-cosmos',
     demoLink: 'https://daniel-grabczewski.github.io/todos-for-the-cosmos-demo/',
