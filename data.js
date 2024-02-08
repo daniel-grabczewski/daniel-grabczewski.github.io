@@ -12,7 +12,7 @@ var projects = [
   {
     title: 'Bnana Online Fruit Store',
     description:
-      'Bnanas is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.',
+      'Bnana is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.',
     technologies: 'React, Typescript, SQLite, Vite, Auth0, CSS',
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     demoLink: 'https://daniel-grabczewski.github.io/bnanas-demo/',
