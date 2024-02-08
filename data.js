@@ -17,7 +17,7 @@ var projects = [
     githubLink: 'https://github.com/daniel-grabczewski/bnanas',
     demoLink: 'https://daniel-grabczewski.github.io/bnanas-demo/',
     image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/8f9d8308254c693b587b5c813901eb1b2fd9f89c/uploads/project-bnana-cover.jpg',
+      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-bnana-cover.png',
   },
   /*
   {
