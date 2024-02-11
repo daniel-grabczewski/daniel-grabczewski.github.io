@@ -1,7 +1,7 @@
 var projects = [
   {
     title: 'Boba Business Management',
-    urlName : 'boba-business-management',
+    name : 'boba-business-management',
     description:
       'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews.',
     technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
@@ -12,7 +12,7 @@ var projects = [
   },
   {
     title: 'Bnana Online Fruit Store',
-    urlName : 'bnana',
+    name : 'bnana',
     description:
       'Bnana is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.',
     technologies: 'React, Typescript, SQLite, Vite, Auth0, CSS',
@@ -24,7 +24,7 @@ var projects = [
   /*
   {
     title: 'Boba Buddies',
-    urlName : 'boba-buddies',
+    name : 'boba-buddies',
     description:
       'Boba Buddies is an e-commerce platform that brings bubble tea lovers a world of flavors. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
     technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
@@ -35,7 +35,7 @@ var projects = [
   */
   {
     title: 'Paint My Museic',
-    urlName : 'paint-my-museic',
+    name : 'paint-my-museic',
     description:
       'Paint My Museic is an exciting web app that blends the joy of painting with the magic of music, creating a unique artistic experience - while painting with each colour, a song will play specific to that colour!',
     technologies: 'React, Typescript, HTML, CSS',
@@ -46,7 +46,7 @@ var projects = [
   },
   {
     title: 'Todos For The Cosmos',
-    urlName : 'todos-for-the-cosmos',
+    name : 'todos-for-the-cosmos',
     description:
       'This Todo List project aimed to turn a typical task management app into an ethereal experience, allowing you to create todos while being one with the cosmos, through a breathtaking UI and animations.',
     technologies: 'React, Redux, Typescript, SQLite, GSAP, Granim, CSS',
