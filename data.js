@@ -3,10 +3,10 @@ var projects = [
     title: 'Boba Business Management',
     name : 'boba-business-management',
     description:
-      'Boba Business Management is a Business Management Platform that allows authenticated users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews.',
+      'Boba Business Management is a Business Management Platform that allows users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. And also switch to being a shopper!',
     technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS',
-    githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
-    demoLink: '',
+    githubLink: 'https://github.com/daniel-grabczewski/boba-business-management',
+    demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/',
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/9852f9d4f4073b87bac83ad4dd06947be43cb26d/uploads/project-boba-business-management-cover.png',
   },
