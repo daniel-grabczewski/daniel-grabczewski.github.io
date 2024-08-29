@@ -1589,6 +1589,12 @@ hr.invis1 {
     margin-right: 10px;
 }
 
+/* Prevent dragging on all images globally */
+img {
+  -webkit-user-drag: none; /* For Safari */
+  user-drag: none; /* Standard CSS property */
+}
+
 .image-center img {
     position: relative;
     margin: 0 0 -208px;
@@ -2181,7 +2187,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #333333 !important;
+    color: white !important;
 }
 
 .footer-links li {
@@ -2476,4 +2482,21 @@ select.mobile-device {
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none;    /* For Firefox */
+  -ms-user-select: none;     /* For Internet Explorer/Edge */
+  user-select: none;         /* Standard CSS property */
+}
+
+a {
+  -webkit-user-select: none; /* Prevent text selection for Safari */
+  -moz-user-select: none;    /* Prevent text selection for Firefox */
+  -ms-user-select: none;     /* Prevent text selection for Internet Explorer/Edge */
+  user-select: none;         /* Prevent text selection */
+  
+  -webkit-user-drag: none; /* Prevent dragging for Safari */
+  user-drag: none; /* Standard CSS property */
 }
