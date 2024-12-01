@@ -23,18 +23,6 @@ var projects = [
     image:
       'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/main/uploads/project-bnana-cover.png',
   },
-  /*
-  {
-    title: 'Boba Buddies',
-    name : 'boba-buddies',
-    description:
-      'Boba Buddies is an e-commerce platform that brings bubble tea lovers a world of flavors. During the development, we faced a challenge with syncing the front-end with SQLite to ensure real-time inventory updates. Through collaboration and iterative testing with Jest, we streamlined the data flow, creating a responsive and efficient user experience. This project taught us the importance of adaptability and alignment between different layers of the application.',
-    technologies: 'React, Typescript, SQLite, Jest, HTML, CSS',
-    githubLink: 'https://github.com/Boba-Buddies/boba-buddies-store',
-    image:
-      'https://raw.githubusercontent.com/daniel-grabczewski/daniel-grabczewski.github.io/d10d2203a572d61d099b42083313bf073725c9e2/uploads/project-boba-buddies-cover.jpg',
-  },
-  */
   {
     title: 'Paint My Museic',
     name: 'paint-my-museic',
