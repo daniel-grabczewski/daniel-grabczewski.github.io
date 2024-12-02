@@ -1,2 +1,54 @@
+
+
 <h1>{{ page.title }}</h1>
+<ul>
+  {% for technology in page.technologies %}
+    <li>{{ technology }}</li>
+  {% endfor %}
+</ul>
+<img src="{{ page.visuals.thumbnail }}" alt="">
 <p>{{ page.description }}</p>
+<a href="{{ page.demo_url }}" class="button">Demo</a>
+<a href="{{ page.code_url }}" class="button">Source code</a>
+
+<h2>Demo Video</h2>
+<video src="{{ page.visuals.demo_video }}"></video>
+
+<h3>Key Features</h3>
+<ul>
+  {% for key_feature in page.key_features %}
+    <li>{{ key_feature }}</li>
+  {% endfor %}
+</ul>
+
+<h2>Development Process</h2>
+<p>{{ page.development_process.overview }}</p>
+
+{% if page.visuals.dev_video %}
+<h3>How It Was Made</h3>
+<video src="{{ page.visuals.dev_video }}"></video>
+{% endif %}
+
+<h3>Planning and Approach</h3>
+<p>{{ page.development_process.planning_approach }}</p>
+<img src="{{ page.visuals.planning_approach_image }}" alt="">
+
+{% if page.development_process.team_collaboration %}
+  <h3>Team Collaboration</h3>
+  <p>{{ page.development_process.team_collaboration }}</p>
+  <img src="{{ page.visuals.team_collaboration_image }}" alt="">
+{% endif %}
+
+<h3>Challenges and Solutions</h3>
+<p>{{ page.development_process.challenges_solutions }}</p>
+<img src="{{ page.visuals.challenges_solutions_image }}" alt="">
+
+<h3>Outcome</h3>
+<p>{{ page.development_process.outcome_reflections }}</p>
+<img src="{{ page.visuals.outcome_reflections_image }}" alt="">
+
+<h3>Lessons Learned</h3>
+<p>{{ page.development_process.lessons_learned }}</p>
+
+<a href="{{ page.demo_url }}" class="button">Demo</a>
+<a href="{{ page.code_url }}" class="button">Source code</a>
