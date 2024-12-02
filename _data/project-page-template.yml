@@ -1,0 +1,28 @@
+- title: 'Project Title'
+  slug : 'project-name-with-kebab-case'
+  description: 'Brief, engaging description of the project.'
+  technologies:
+    - 'Technology 1'
+    - 'Technology 2'
+    - 'Technology 3'
+  code_url: 'https://github.com/yourusername/yourproject'
+  demo_url: 'https://yourprojectdemo.com'
+  key_features:
+    - 'Feature 1 description'
+    - 'Feature 2 description'
+    - 'Feature 3 description'
+  visuals:
+    demo_video : 'path_to_video_tour.mp4'
+    dev_video: 'path_to_development_tour.mp4' # Optional
+    thumbnail : 'thumbnail.png'
+    planning_approach_image: 'planning_approach.png'
+    team_collaboration_image : 'team_collaboration.png'  # Optional
+    challenges_solutions_image : 'challenges_solutions.png'
+    outcome_reflections_image : 'outcome_reflections.png'
+  development_process:
+    overview: 'Overview of the development journey.'
+    planning_approach: 'Details about planning, tech stack, and coding philosophy.'
+    team_collaboration: 'Explanation of team dynamics and tools used.' # Optional
+    challenges_solutions: 'Specific challenges faced and solutions implemented.'
+    outcome_reflections: "Your assessment of the project's success and areas for improvement."
+    lessons_learned: 'Key takeaways from the project.'
