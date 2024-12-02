@@ -15,3 +15,8 @@ github_username: jekyll
 # theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
