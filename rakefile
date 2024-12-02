@@ -1,0 +1,7 @@
+task :generate_projects do
+  sh "python generate_projects.py"
+end
+
+task :serve => :generate_projects do
+  sh "bundle exec jekyll serve"
+end
