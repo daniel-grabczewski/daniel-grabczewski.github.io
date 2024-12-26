@@ -25,6 +25,9 @@
 		$('.navbar-collapse').collapse('hide');
 	  });
 
+      // Check if #mainNav exists on the page
+  if ($('#mainNav').length) {
+
 	// Activate scrollspy to add active class to navbar items on scroll
 	  $('body').scrollspy({
 		target: '#mainNav',
@@ -38,6 +41,7 @@
 		} else {
 		  $("#mainNav").removeClass("navbar-shrink");
 		}
+
 	  };
 	// Collapse now if page is not at top
 	  navbarCollapse();
@@ -74,6 +78,8 @@
 			}, 700);
 		});
 	}
+
+}
 	
 	// Banner 
 	
