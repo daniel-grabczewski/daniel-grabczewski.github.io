@@ -450,6 +450,17 @@ xclip
     background-color: #333333;
 }
 
+.navbar-shrink {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #333333;
+}
+
+
+.navbar-compensation {
+  padding-top:61.31px;
+}
+
 #clouds{
 	margin-top: -5%;
 	position: relative;
