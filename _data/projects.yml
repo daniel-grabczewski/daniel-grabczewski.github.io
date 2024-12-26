@@ -3,8 +3,8 @@
   description: 'Ticketer is a visual work management tool that uses a Kanban board system to help users organize their tasks. Users can sign up, create and customize boards, lists, and tickets for their projects.'
   technologies: 'Angular, C#, ASP.NET Core, MySQL, Azure, Docker'
   githubLink: 'https://github.com/daniel-grabczewski/Ticketer'
-  demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
-  image: '/assets/images/project-ticketer-cover-temp.svg'
+  demoLink: 'https://ticketerapp.com'
+  image: '/assets/images/project-ticketer-cover.svg'
 
 - title: 'Boba Business Management'
   name: 'boba-business-management'
