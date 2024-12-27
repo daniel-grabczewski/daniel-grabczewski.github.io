@@ -172,3 +172,57 @@ p {
     margin-bottom : 10px;
   }
 }
+
+
+.project-page-h1 {
+  font-size : 75px;
+}
+
+.project-page-h2 {
+  font-size : 50px;
+}
+
+.project-page-technologies {
+  display: column;
+    flex-direction: column;
+    align-items :flex-end;
+}
+
+.project-page-technologies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-page-technologies ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #D9D9D9;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+.project-page-image {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 10px 10px rgba(46, 46, 46, 0.1);
+  border-radius: 5px;
+  margin-bottom : 25px;
+}
+
+
+.project-page-container {
+  margin-bottom : 50px;
+}
+
+.project-page-description {
+  margin-bottom : 30px;
+}
+
+.project-page-buttons-container {
+  margin-bottom : 25px;
+}
