@@ -71,7 +71,7 @@
           </div>
         </nav>
 
-        <div class = "section lb">
+        <div class = "section">
           <div class = "container project-page-container">
             <div>
 <h1 class="project-page-h1">{{ page.title }}</h1>
@@ -93,54 +93,54 @@
 <!-- <img src="{{ page.visuals.thumbnail }}" class="project-page-image" alt=""> -->
 
 </div>
-
-<div class = "container">
 {% if page.visuals.demo_video %}
-<h2 class="project-page-h2">Demo Video</h2>
+<div class = "container project-page-container">
+<!-- <h2 class="project-page-h2">Demo Video</h2> -->
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="{{ page.visuals.demo_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+</div>
 {% endif %}
-
-<h3>Key Features</h3>
-<ul>
+<div class = "container project-page-container">
+<h2 class="project-page-h2">Key Features</h2>
+<ul class = "key-features">
   {% for key_feature in page.key_features %}
     <li>{{ key_feature }}</li>
   {% endfor %}
 </ul>
 </div>
-
-<div class = "container">
-<h2>Development Process</h2>
+<div class="section lb">
+<div class = "container project-page-container">
+<h2  class="project-page-h2">Development Process</h2>
 <p>{{ page.development_process.overview }}</p>
 
 {% if page.visuals.dev_video %}
-<h3>How It Was Made</h3>
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="{{ page.visuals.dev_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 {% endif %}
+</div>
 
-<h3>Planning and Approach</h3>
-<p>{{ page.development_process.planning_approach }}</p>
-<img src="{{ page.visuals.planning_approach_image }}" alt="">
+<div class = "container project-page-container">
+{% for step in page.development_process.steps %}
+{% assign mod_result = forloop.index0 | modulo: 2 %}
+<div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
+  <h2 class="mobile-title">{{ step.title }}</h2>
+  <div class="portfolio-left-container">
+    <h2 class="desktop-title">{{ step.title }}</h2>
+    <p class="project-description">{{ step.description }}</p>
+  </div>
+  <div class="portfolio-right-container">
+      <img class="portfolio-image" src="{{ step.image }}" alt="{{ project.title }}">
+  </div>
+</div>
+{% endfor %}
+</div>
+</div>
 
-{% if page.development_process.team_collaboration %}
-  <h3>Team Collaboration</h3>
-  <p>{{ page.development_process.team_collaboration }}</p>
-  <img src="{{ page.visuals.team_collaboration_image }}" alt="">
-{% endif %}
-
-<h3>Challenges and Solutions</h3>
-<p>{{ page.development_process.challenges_solutions }}</p>
-<img src="{{ page.visuals.challenges_solutions_image }}" alt="">
-
-<h3>Outcome</h3>
-<p>{{ page.development_process.outcome_reflections }}</p>
-<img src="{{ page.visuals.outcome_reflections_image }}" alt="">
 
 <h3>Lessons Learned</h3>
 <p>{{ page.development_process.lessons_learned }}</p>
 
 <a href="{{ page.demo_url }}" class="button">Demo</a>
 <a href="{{ page.code_url }}" class="button">Source code</a>
-</div>
+
 </div>
 
 
