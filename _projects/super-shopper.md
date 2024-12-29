@@ -14,9 +14,15 @@ technologies:
 code_url: https://github.com/yourusername/super-shopper
 demo_url: https://supershopperdemo.com
 key_features:
-- Real-time product search and advanced filtering options. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
-- Secure user authentication and authorization using Auth0. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
-- Scalable backend services deployed with Docker on Azure. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
+  - title : Feature X
+    description : Real-time product search and advanced filtering options. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
+    image : https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Astor_Market_meat_counter_in_Manhattan_in_1915.jpg/450px-Astor_Market_meat_counter_in_Manhattan_in_1915.jpg
+  - title : Feature Y
+    description : Secure user authentication and authorization using Auth0. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
+    image : https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Piggly_Wiggly_store%2C_1918.png/450px-Piggly_Wiggly_store%2C_1918.png
+  - title : Feature Z
+    description : Scalable backend services deployed with Docker on Azure. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et. Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
+    image : https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SB-butik_1941.jpg/330px-SB-butik_1941.jpg
 visuals:
   demo_video: https://www.loom.com/embed/38f2ba3f2177432c8578c549114e7307?sid=820badd7-2327-476a-bf8a-ba81c6fc3ecb
   dev_video: https://www.loom.com/embed/51c2dfa0c7bc4a0696bd262d7a3fb626?sid=bd87c4f6-f438-43f9-b857-a27a224548c7
