@@ -72,10 +72,8 @@
         </nav>
 
         <div class = "section">
-          <div class = "container project-page-container">
-            <div>
+          <div class = "container project-page-container" style="padding-top : 0px;">
 <h1 class="project-page-h1">{{ page.title }}</h1>
-</div>
 <div class="project-page-technologies">
 <ul>
   {% for technology in page.technologies %}
@@ -99,7 +97,7 @@
 {% endif %}
 
 <div class = "container project-page-container">
-  <h2 class="project-page-h2">Key Features</h2>
+  <h2 class="project-page-h2" style="margin-bottom : 15px;">Key Features</h2>
   {% for key_feature in page.key_features %}
   {% assign mod_result = forloop.index0 | modulo: 2 %}
   <div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
@@ -114,20 +112,17 @@
   </div>
   {% endfor %}
   </div>
-<div class="section lb">
-<div class = "container project-page-container">
+  <div class="grey-background">
+<div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
 <h2  class="project-page-h2">Development Process</h2>
 <p>{{ page.development_process.overview }}</p>
-
 {% if page.visuals.dev_video %}
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="{{ page.visuals.dev_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom : 50px;"><iframe src="{{ page.visuals.dev_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 {% endif %}
-</div>
 
-<div class = "container project-page-container">
 {% for step in page.development_process.steps %}
 {% assign mod_result = forloop.index0 | modulo: 2 %}
-<div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
+<div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}" >
   <h2 class="mobile-title">{{ step.title }}</h2>
   <div class="portfolio-left-container">
     <h2 class="desktop-title">{{ step.title }}</h2>
@@ -141,13 +136,52 @@
 </div>
 </div>
 
-
-<h3>Lessons Learned</h3>
+<div class = "container project-page-container section" style = "padding-bottom : 0px !important; padding-top : 50px;">
+<h2 class="project-page-h2">Lessons Learned</h2>
 <p>{{ page.development_process.lessons_learned }}</p>
 
-<a href="{{ page.demo_url }}" class="button">Demo</a>
-<a href="{{ page.code_url }}" class="button">Source code</a>
+<div class = "project-page-buttons-container">
+  <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+  <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+  </div>
+</div>
+</div>
 
+    <!-- CONTACT -->
+    <div id="contact" class="section db">
+      <div class="container">
+        <div class="section-title text-left">
+          <h3>Contact</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="contact_form">
+              <div id="message"></div>
+              <p>danielgrabczewski@gmail.com</p>
+              <p>022 646 1855</p>
+              <a href="https://www.linkedin.com/in/daniel-grabczewski/">LinkedIn</a>
+              <p></p>
+              <a href="https://github.com/daniel-grabczewski/">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="copyrights">
+  <div class="container">
+    <div class="footer-distributed">
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="/">Home</a>
+          <a href="/#about">About</a>
+          <a href="/#portfolio">Portfolio</a>
+          <a href="/#contact">Contact</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
