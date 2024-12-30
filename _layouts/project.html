@@ -131,6 +131,7 @@
   <div class="portfolio-right-container">
       <img class="portfolio-image" src="{{ step.image }}" alt="{{ step.title }}">
   </div>
+
 </div>
 {% endfor %}
 </div>
@@ -138,7 +139,9 @@
 
 <div class = "container project-page-container section" style = "padding-bottom : 0px !important; padding-top : 50px;">
 <h2 class="project-page-h2">Lessons Learned</h2>
-<p>{{ page.development_process.lessons_learned }}</p>
+{% for lesson_learned in page.development_process.lessons_learned %}
+<p>{{ lesson_learned }}</p>
+{% endfor %}
 
 <div class = "project-page-buttons-container">
   <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
