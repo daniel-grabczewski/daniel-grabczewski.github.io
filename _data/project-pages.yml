@@ -26,6 +26,7 @@
         consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et.
         Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Astor_Market_meat_counter_in_Manhattan_in_1915.jpg/450px-Astor_Market_meat_counter_in_Manhattan_in_1915.jpg'
+      caption : 'Add a caption for the image'
 
     - title: 'Feature Y'
       description: >
@@ -33,6 +34,7 @@
         consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et.
         Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Piggly_Wiggly_store%2C_1918.png/450px-Piggly_Wiggly_store%2C_1918.png'
+      caption : 'Add a caption for the image'
 
     - title: 'Feature Z'
       description: >
@@ -40,6 +42,7 @@
         consectetur adipiscing elit. Sed ultricies commodo enim, at sodales mauris iaculis et.
         Sed nec pretium urna. Maecenas magna velit, ultricies eu nibh id, porttitor fringilla ex.
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SB-butik_1941.jpg/330px-SB-butik_1941.jpg'
+      caption : 'Add a caption for the image'
 
   visuals:
     demo_video: 'https://www.loom.com/embed/38f2ba3f2177432c8578c549114e7307?sid=820badd7-2327-476a-bf8a-ba81c6fc3ecb'
@@ -117,31 +120,36 @@
       description: >
         Design and organize multiple boards tailored to your projects or personal workflows. Personalize each board with unique names, vibrant colors, and stunning backgrounds to reflect your style or team identity. Easily create, save, and duplicate templates to streamline your setup and maintain consistency across different projects.
 
-      image: '/assets/images/ticketer-project/customizable-boards.png'  
+      image: '/assets/images/ticketer-project/customizable-boards.png'
+      caption : 'Screenshot of the Ticketer board page'  
 
     - title: 'Flexible Lists'
       description: >
         Structure your workflow with adaptable lists that categorize your tasks effortlessly. Whether it's "To Do," "In Progress," or custom categories, you can create, rename, and duplicate lists to build templates that fit your specific needs. This flexibility ensures that your task management adapts as your projects evolve.
 
-      image: '/assets/images/ticketer-project/flexible-lists.png'  
+      image: '/assets/images/ticketer-project/flexible-lists.png'
+      caption : 'Diagram showing all actions that user can perform on a list'  
 
     - title: 'Comprehensive Tickets'
       description: >
         Dive deep into task management with detailed tickets. Customize each ticket with titles, descriptions, and cover colors for enhanced organization. This feature allows you to maintain both a high-level overview and granular details, ensuring nothing slips through the cracks.
 
-      image: '/assets/images/ticketer-project/comprehensive-tickets.png'  
+      image: '/assets/images/ticketer-project/comprehensive-tickets.png'
+      caption : 'Screenshot of Ticketer''s detailed ticket view'  
 
     - title: 'Intuitive Drag-and-Drop'
       description: >
         Experience seamless task movement with a smooth drag-and-drop interface. Easily rearrange tickets within and across lists, and reorder lists themselves to reflect shifting priorities. This visual and interactive approach makes managing your tasks more engaging and efficient.
 
-      image: '/assets/images/ticketer-project/intuitive-drag-and-drop.mp4'  
+      image: '/assets/images/ticketer-project/intuitive-drag-and-drop.mp4'
+      caption : 'Video of using Ticketer''s drag-and-drop interface'  
 
     - title: 'Seamless Account Management'
       description: >
         Get started quickly by signing up with Auth0 or Google, or jump in as a guest to explore Ticketer without any commitments. When you're ready to save your progress, effortlessly transfer your guest data to a permanent account, ensuring your boards are accessible from any device and securely stored in Azure's cloud services for future use.
 
-      image: '/assets/images/ticketer-project/seamless-account-management.png'  
+      image: '/assets/images/ticketer-project/seamless-account-management.png'
+      caption : 'Screenshot of the Ticketer login page'  
 
   visuals:
     demo_video: 'https://www.loom.com/embed/38f2ba3f2177432c8578c549114e7307?sid=820badd7-2327-476a-bf8a-ba81c6fc3ecb'

@@ -19,17 +19,20 @@
     - title: 'Feature 1 Title'
       description: >
         Detailed description of Feature 1. Explain what it does, why it's important, and any other relevant details.
-      image: 'https://link-to-your-feature1-image.com/image.jpg'  
+      image: 'https://link-to-your-feature1-image.com/image.jpg'
+      caption : 'Add a caption for the image'  
 
     - title: 'Feature 2 Title'
       description: >
         Detailed description of Feature 2. Explain what it does, why it's important, and any other relevant details.
-      image: 'https://link-to-your-feature2-image.com/image.jpg'  
+      image: 'https://link-to-your-feature2-image.com/image.jpg'
+      caption : 'Add a caption for the image'  
 
     - title: 'Feature 3 Title'
       description: >
         Detailed description of Feature 3. Explain what it does, why it's important, and any other relevant details.
-      image: 'https://link-to-your-feature3-image.com/image.jpg'  
+      image: 'https://link-to-your-feature3-image.com/image.jpg'
+      caption : 'Add a caption for the image'  
     # Add more features as needed
 
   visuals:
@@ -46,22 +49,33 @@
         description: >
           Description of the planning phase, including research, wireframing, and the selection of technologies and methodologies.
         image: 'https://link-to-planning-image.com/image.jpg'  
+        caption : 'Add a caption for the image'
 
       - title: 'Team Collaboration'
         description: >
           Explanation of how the team collaborated, including tools used (e.g., Agile methodologies, JIRA, Slack) and team dynamics.
         image: 'https://link-to-collaboration-image.com/image.jpg'  
+        caption : 'Add a caption for the image'
 
       - title: 'Challenges and Solutions'
         description: >
           Specific challenges faced during development and the solutions implemented to overcome them.
         image: 'https://link-to-challenges-image.com/image.jpg'  
+        caption : 'Add a caption for the image'
 
       - title: 'Outcomes and Reflections'
         description: >
           Results of the project, including successes, performance metrics, and areas identified for future improvement.
         image: 'https://link-to-outcomes-image.com/image.jpg'  
+        caption : 'Add a caption for the image'
 
-    lessons_learned: >
-      Summarize the key takeaways from the project, such as enhanced skills, insights gained, and best practices learned.
+    lessons_learned:
+      - >
+        Summarize the key takeaways from the project, such as enhanced skills,
+        insights gained, and best practices learned. This allows you to write long
+        sentences that wrap neatly without introducing unwanted line breaks.
+      - >
+        Another lesson.  You can continue writing additional details on the next
+        line, and it will be treated as part of the same paragraph.
+
 
