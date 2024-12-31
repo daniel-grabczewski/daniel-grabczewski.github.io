@@ -107,10 +107,21 @@
       <p class="project-description">{{ key_feature.description }}</p>
     </div>
     <div class="portfolio-right-container">
+      {% if key_feature.image contains '.mp4' %}
+        <video class="portfolio-image" autoplay loop muted playsinline style="width: 100%; height: auto;">
+          <source src="{{ key_feature.image }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% else %}
         <img class="portfolio-image" src="{{ key_feature.image }}" alt="{{ key_feature.title }}">
+      {% endif %}
     </div>
   </div>
   {% endfor %}
+
+
+
+
   </div>
   <div class="grey-background">
 <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
@@ -130,6 +141,7 @@
   </div>
   <div class="portfolio-right-container">
       <img class="portfolio-image" src="{{ step.image }}" alt="{{ step.title }}">
+      
   </div>
 
 </div>
