@@ -106,6 +106,7 @@
   
   technologies:
     - 'Angular'
+    - 'Typescript'
     - 'C#'
     - 'ASP.NET Core'
     - 'MySQL'
@@ -210,3 +211,4 @@
         This experience taught me the hard way that a robust testing suite is indispensable for maintaining code quality and reliability, especially in complex applications. Additionally, I gained invaluable insights into effective project management and time allocation, realizing that balancing feature development with thorough testing and documentation is essential for long-term project success.
       - >
         Another significant lesson was the power of leveraging cloud services effectively. Navigating Azure's vast array of tools and services taught me how to optimize resource allocation, enhance application scalability, and ensure robust security measures. Managing Docker containers not only streamlined the deployment process but also reinforced the importance of automation in modern software development. These experiences have equipped me with the skills to architect scalable, secure, and efficient applications, making me a more versatile and capable developer.
+
