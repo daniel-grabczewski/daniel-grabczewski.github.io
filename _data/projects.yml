@@ -9,7 +9,7 @@
 - title: 'Boba Business Management'
   name: 'boba-business-management'
   description: 'Boba Business Management is a Business Management Platform that allows users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. And also switch to being a shopper!'
-  technologies: 'React, Typescript, SQLite, Jest, Auth0, CSS'
+  technologies: 'React, Typescript, SQLite, Jest, Auth0, Tailwind CSS'
   githubLink: 'https://github.com/daniel-grabczewski/boba-business-management'
   demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
   image: '/assets/images/project-boba-business-management-cover.png'
