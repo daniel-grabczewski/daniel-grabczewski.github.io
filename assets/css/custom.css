@@ -227,7 +227,12 @@ p {
 
 
 .project-page-container {
-  margin-bottom : 50px;
+  padding-bottom : 25px;
+  padding-top : 25px;
+}
+
+.grey-background {
+  background-color: #f2f3f5;
 }
 
 .project-page-description {
@@ -251,4 +256,8 @@ p {
 
 .key-features li:last-child {
   margin-bottom: 0;
+}
+
+figcaption {
+  font-size : 15px !important;
 }
