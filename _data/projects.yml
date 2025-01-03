@@ -14,6 +14,14 @@
   demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
   image: '/assets/images/project-boba-business-management-cover.png'
 
+- title: 'Bargain Alert (In Development)'
+  name: 'bargain-alert'
+  description: 'Bargain Alert is an app in development, approved to access TradeMe's official APIs for delivering personalized notifications. Set specific parameters and get instant alerts when new listings match your criteria—never miss a deal again!'
+  technologies: 'React, Typescript, C#, ASP.NET Core, SendGrid, MySQL, Azure Cloud Services, Docker'
+  githubLink: 'https://github.com/daniel-grabczewski/boba-business-management'
+  demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
+  image: '/assets/images/project-boba-business-management-cover.png'
+
 - title: 'Bnana Online Fruit Store'
   name: 'bnana'
   description: 'Bnana is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.'
