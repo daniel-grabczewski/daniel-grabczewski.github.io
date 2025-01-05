@@ -1,6 +1,7 @@
 # project-page-template.yml
 
 - layout: project
+  in_development: 'false'
   title: 'Project Title'
   slug: 'project-slug'  # Use kebab-case for the slug
   description: >
