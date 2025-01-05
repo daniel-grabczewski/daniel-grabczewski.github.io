@@ -1,8 +1,18 @@
 {% assign mod_result = forloop.index0 | modulo: 2 %}
 <div class="portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
-  <h2 class="mobile-title">{{ project.title }}</h2>
+  <h2 class="mobile-title">
+    {{ project.title }}
+    {% if project.in_development == 'true' %}
+      <br>(In Development)
+    {% endif %}
+  </h2>
   <div class="portfolio-left-container">
-    <h2 class="desktop-title">{{ project.title }}</h2>
+    <h2 class="desktop-title">
+      {{ project.title }}
+      {% if project.in_development == 'true' %}
+        <br>(In Development)
+      {% endif %}
+    </h2>
     <p class="project-description">{{ project.description }}</p>
     <p><strong>Technologies used:</strong> {{ project.technologies }}</p>
     {% if project.demoLink %}
