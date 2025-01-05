@@ -1,4 +1,5 @@
 - title: 'Ticketer'
+  in_development : 'false'
   name: 'ticketer'
   description: 'Ticketer is a visual work management tool that uses a Kanban board system to help users organize their tasks. Users can sign up, create and customize boards, lists, and tickets for their projects.'
   technologies: 'Angular, Typescript, C#, ASP.NET Core, MySQL, Azure Cloud Services, Docker'
@@ -7,6 +8,7 @@
   image: '/assets/images/project-ticketer-cover.svg'
 
 - title: 'Boba Business Management'
+  in_development : 'false'
   name: 'boba-business-management'
   description: 'Boba Business Management is a Business Management Platform that allows users to modify & add products, manage stock levels, view orders, read emails, and moderate user reviews. And also switch to being a shopper!'
   technologies: 'React, Typescript, SQLite, Jest, Auth0, Tailwind CSS'
@@ -14,15 +16,17 @@
   demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
   image: '/assets/images/project-boba-business-management-cover.png'
 
-- title: 'Bargain Alert (In Development)'
+- title: 'Bargain Alert'
+  in_development : 'true'
   name: 'bargain-alert'
-  description: 'Bargain Alert is an app in development, approved to access TradeMe's official APIs for delivering personalized notifications. Set specific parameters and get instant alerts when new listings match your criteria—never miss a deal again!'
-  technologies: 'React, Typescript, C#, ASP.NET Core, SendGrid, MySQL, Azure Cloud Services, Docker'
+  description: 'Bargain Alert is an app in development, approved to access TradeMe''s official APIs for delivering personalized notifications. Set app-exclusive parameters and get instant alerts when new listings match your criteria—never miss a deal again!'
+  technologies: 'React, Typescript, C#, ASP.NET Core, PostgreSQL, SendGrid, Azure Cloud Services, Docker'
   githubLink: 'https://github.com/daniel-grabczewski/boba-business-management'
   demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
   image: '/assets/images/project-boba-business-management-cover.png'
 
 - title: 'Bnana Online Fruit Store'
+  in_development : 'false'
   name: 'bnana'
   description: 'Bnana is an e-commerce app that sells exotic bananas. Users can create an account, add products to their cart, modify quantities, select shipping options, and go through the checkout process.'
   technologies: 'React, Typescript, SQLite, Vite, Auth0, CSS'
@@ -31,6 +35,7 @@
   image: '/assets/images/project-bnana-cover.png'
 
 - title: 'Paint My Museic'
+  in_development : 'false'
   name: 'paint-my-museic'
   description: 'Paint My Museic is an exciting web app that blends the joy of painting with the magic of music, creating a unique artistic experience - while painting with each colour, a song will play specific to that colour!'
   technologies: 'React, Typescript, HTML, CSS'
@@ -39,6 +44,7 @@
   image: '/assets/images/project-paint-my-museic-cover.svg'
 
 - title: 'Todos For The Cosmos'
+  in_development : 'false'
   name: 'todos-for-the-cosmos'
   description: 'This Todo List project aimed to turn a typical task management app into an ethereal experience, allowing you to create todos while being one with the cosmos, through a breathtaking UI and animations.'
   technologies: 'React, Redux, Typescript, SQLite, GSAP, Granim, CSS'
