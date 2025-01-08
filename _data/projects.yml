@@ -23,7 +23,7 @@
   technologies: 'React, Typescript, C#, ASP.NET Core, PostgreSQL, SendGrid, Azure Cloud Services, Docker'
   githubLink: 'https://github.com/daniel-grabczewski/boba-business-management'
   demoLink: 'https://daniel-grabczewski.github.io/boba-business-management/admin'
-  image: '/assets/images/project-boba-business-management-cover.png'
+  image: '/assets/images/bargain-hunter-project/bargain-hunter-thumbnail.svg'
 
 - title: 'Bnana Online Fruit Store'
   in_development : 'false'
