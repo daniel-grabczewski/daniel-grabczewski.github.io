@@ -71,7 +71,7 @@
           </div>
         </nav>
 
-        <div class = "section">
+        <div class = "section" style = "padding-bottom : 0px;">
           <div class = "container project-page-container" style="padding-top : 0px;">
 <h1 class="project-page-h1">{{ page.title }}</h1>
 <div class="project-page-technologies">
@@ -171,15 +171,16 @@
 {% if page.in_development == 'true' %}
 <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
 
-  <h2 class="project-page-h2" style="margin-bottom : 15px;">More about this app</h2>
+  <h2 class="project-page-h2" style="margin-bottom : 35px;">More about this app</h2>
 
   {% for key_feature in page.key_features %}
   {% assign mod_result = forloop.index0 | modulo: 2 %}
-      <div class="{% if key_feature.use_bullet_points contains 'true' %} step-container-margin {% endif %} portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
+      <div class="step-container-margin {% if key_feature.use_bullet_points contains 'true' %} step-container-margin {% endif %} portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
         <h2 class="mobile-title">{{ key_feature.title }}</h2>
         <div class="portfolio-left-container">
           <h2 class="desktop-title">{{ key_feature.title }}</h2>
           <p class="project-description">{{ key_feature.description }}</p>
+          
         </div>
         <div class="portfolio-right-container">
           <figcaption>{{ key_feature.caption }}</figcaption>
@@ -192,27 +193,28 @@
             <img class="portfolio-image" src="{{ key_feature.image }}" alt="{{ key_feature.title }}">
           {% endif %}
         </div>
+        <div>
+          {% if key_feature.use_bullet_points contains 'true' %}
+          <ul class = "project-page-list">
+            {% for bullet_point in key_feature.bullet_points %}
+              <li>{{bullet_point}}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
       </div>
-      <div>
-      {% if key_feature.use_bullet_points contains 'true' %}
-      <h2 class="desktop-title">{{key_feature.bullet_points_title}}</h2>
-      <ul class = "in-development-list">
-        {% for bullet_point in key_feature.bullet_points %}
-          <li>{{bullet_point}}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </div>
+      
   {% endfor %}
 </div>
 
 <div class="grey-background">
   <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
   <h2  class="project-page-h2">Choice of technologies</h2>
-  <p>{{ page.choice_of_technologies.overview }}</p>
+  <p class="title-paragraph-container">{{ page.choice_of_technologies.overview }}</p>
   {% for technology in page.choice_of_technologies.technologies %}
-  <div>
-    <h3 class="desktop-title">{{technology.title}}</h3>
+  <div class="title-paragraph-container">
+    <h2 class="desktop-title">{{technology.title}}</h2>
+    <h2 class="mobile-title">{{technology.title}}</h2>
     <p>{{technology.description}}</p>
   </div>
   {% endfor %}
@@ -220,12 +222,17 @@
 </div>
 
 <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
-  <h2  class="project-page-h2">Development process</h2>
-  <p>{{ page.development_process.overview }}</p>
+  <h2 class="project-page-h2">Development process</h2>
+  <p class="title-paragraph-container">{{ page.development_process.overview }}</p>
   {% for step in page.development_process.steps %}
-  <div>
-    <h3 class="desktop-title">{{step.title}}</h3>
-    <p>{{step.description}}</p>
+  <div class="title-paragraph-container">
+    <h2 class="desktop-title">{{step.title}}</h2>
+    <h2 class="mobile-title">{{step.title}}</h2>
+    <ul class = "project-page-list">
+    {% for bullet_point in step.description %}
+        <li>{{bullet_point}}</li>
+    {% endfor %}
+  </ul>
   </div>
   {% endfor %}
   </div>
@@ -233,10 +240,13 @@
 
   <div class="grey-background">
     <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
-    <h2  class="project-page-h2">Anticipated challenges</h2>
-    {% for challenge in page.anticipated_challenges %}
-    <div>
-      <p>{{challenge}}</p>
+    <h2 class="project-page-h2">Anticipated challenges</h2>
+    <p class="title-paragraph-container">{{ page.anticipated_challenges.overview }}</p>
+    {% for challenge in page.anticipated_challenges.challenges %}
+    <div class="title-paragraph-container">
+      <h2 class="desktop-title">{{challenge.title}}</h2>
+    <h2 class="mobile-title">{{challenge.title}}</h2>
+      <p>{{challenge.description}}</p>
     </div>
     {% endfor %}
     </div>
