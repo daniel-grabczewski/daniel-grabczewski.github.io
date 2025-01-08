@@ -428,8 +428,8 @@
     - title: 'Who is Bargain Hunter for?'
       description: >
         Bargain Alert is for users who want to find the best deals on TradeMe without constantly refreshing pages or manually checking for updates. While TradeMe offers a daily notification system, it's far too infrequent to compete for top-tier deals in real time. This app is built for those who demand instant updates, ensuring they can act immediately on new listings that match their preferences. Additionally, Bargain Alert is designed with a mobile-first UI, recognizing that deal hunting often happens on the go. Whether you're commuting, shopping, or simply managing your day, this app will seamlessly fit into your busy lifestyle.
-      image: 'https://link-to-your-feature1-image.com/image.jpg'
-      caption: 'Empowering users to snag deals anytime, anywhere'
+      image: '/assets/images/bargain-hunter-project/notification-page.svg'
+      caption: 'Design for Bargain Hunter''s listing notifications page'
 
     - title: 'Exclusive features not found on TradeMe'
       use_bullet_points: 'true'
@@ -444,20 +444,20 @@
         - 'Seller proximity within a custom radius'
         - 'Personalized relevance scoring for listings'
         - 'Live updates for new comments on listings of interest'
-      image: 'https://link-to-your-feature2-image.com/image.jpg'
-      caption: 'Precision tools to find exactly what you need'
+      image: '/assets/images/bargain-hunter-project/bargain-hunter-auto-search.svg'
+      caption: 'Design for Bargain Hunter''s auto-search page'
 
     - title: 'Why I''m building this app'
       description: >
         Building Bargain Alert is a pivotal step in my journey as a software developer, offering an opportunity to deepen my expertise while expanding into new territories. While I have prior experience integrating external APIs, this project represents the first time I'll be working with official APIs that require application approval. Navigating the compliance requirements, terms of service, and developer guidelines is a monumental learning experience that strengthens my understanding of building enterprise-grade applications. 
-      image: 'https://link-to-your-feature3-image.com/image.jpg'
-      caption: 'An ambitious step forward in my development journey'
+      image: '/assets/images/bargain-hunter-project/home-page.svg'
+      caption: 'Design for Bargain Hunter''s home page'
 
     - title: 'Improving my technical knowledge'
       description: >
         Apart from learning how to work with offical APIs, I am leveraging this project to further enhance my skills in technologies I'm already proficient with, such as React and ASP.NET Core, while mastering new ones like PostgreSQL and SendGrid. The opportunity to explore these tools in a real-world context ensures I remain at the forefront of modern development practices. For me, every project is a chance to grow, innovate, and refine my craft. And Bargain Alert is no exception!
-      image: 'https://link-to-your-feature3-image.com/image.jpg'
-      caption: 'An ambitious step forward in my development journey'
+      image: '/assets/images/bargain-hunter-project/stack-diagram.svg'
+      caption: 'Architecture diagram for Bargin Hunter''s technologies'
 
     # Add more features as needed
 
