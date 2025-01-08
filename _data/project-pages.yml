@@ -435,7 +435,6 @@
       use_bullet_points: 'true'
       description: >
         Bargain Alert offers a host of unique and advanced features that go beyond what TradeMe currently provides. These features are crafted to make your search highly efficient and personalized, saving you time while increasing the likelihood of finding listings that truly matter. Beyond providing faster notifications, Bargain Alert introduces intelligent search capabilities designed to deliver highly relevant results.
-      bullet_points_title: 'Exclusive features'
       bullet_points:
         - 'Search items across multiple categories simultaneously'
         - 'Customizable keywords (must-have, desired, and avoid)'
@@ -471,19 +470,19 @@
       Selecting the right tech stack for Bargain Alert was a meticulous process, grounded in research and careful consideration of the app's requirements. Each technology was chosen to complement the others, ensuring a seamless, scalable, and high-performing system. My decision-making process focused on balancing developer productivity, long-term maintainability, and the specific needs of the app, such as real-time notifications, structured and semi-structured data handling, and a mobile-first experience. This thoughtful approach demonstrates not only my technical expertise but also my ability to align technical solutions with business objectives.
 
     technologies:
-    - title: 'React & Typescript'
+    - title: 'Frontend Development: React & Typescript'
       description: >
         React and Typescript were chosen for the frontend due to their proven track record in building scalable and dynamic user interfaces. React's component-based architecture allows for efficient development and reusability, which is crucial for creating a responsive, mobile-first UI like Bargain Alert. Typescript enhances this process by adding type safety, reducing runtime errors, and improving developer confidence through better tooling and autocompletion. Together, they provide a modern and robust foundation for delivering a polished and user-friendly experience.
 
-    - title: 'ASP.NET Core & PostgreSQL'
+    - title: 'Backend Development: ASP.NET Core & PostgreSQL'
       description: >
         ASP.NET Core is an excellent choice for the backend due to its high performance, cross-platform support, and strong integration with C#. Its ability to handle concurrent requests efficiently ensures the app can scale as user demand increases. PostgreSQL was selected as the database because of its versatility and advanced features, such as JSONB support. This makes it ideal for handling semi-structured data like notification payloads while still offering robust relational capabilities for managing structured user data. Together, ASP.NET Core and PostgreSQL create a reliable and scalable backend infrastructure tailored to Bargain Alert's needs.
 
-    - title: 'Azure & SendGrid'
+    - title: 'Cloud Services & Email Delivery: Azure & SendGrid'
       description: >
         Azure Cloud Services was chosen for its seamless integration with ASP.NET Core and PostgreSQL, as well as its scalability. Azure provides reliable hosting and services that ensure the app performs optimally under varying workloads. SendGrid was selected as the email notification provider due to its effortless integration with Azure and its reputation for delivering secure and reliable email services. This combination guarantees that users receive timely and consistent notifications, a critical feature for Bargain Alert's success.
 
-    - title: 'Docker'
+    - title: 'Containerization: Docker'
       description: >
         Docker was chosen to streamline development and deployment by providing a consistent environment across all stages of the development lifecycle. With Docker, the app can be easily containerized, ensuring that dependencies and configurations are packaged together. This approach minimizes compatibility issues and simplifies scaling, especially as the app transitions from development to production. Docker's portability and efficiency make it an essential tool for maintaining high-quality deployment practices in modern web development.
 
@@ -558,14 +557,20 @@
 
 
   anticipated_challenges:
-    - >
-      One significant anticipated challenge is ensuring the app's notification system remains efficient and scalable as the user base grows. With notifications potentially being sent every five minutes and customized for each user's criteria, there's a risk of overwhelming the system, particularly as the database grows larger and the number of simultaneous users increases. To tackle this, I plan to implement a queue-based messaging system, such as Azure Service Bus, to manage email notifications efficiently. By decoupling the notification generation process from the main application flow, I can ensure consistent performance and prevent bottlenecks. Additionally, optimizing database queries and leveraging PostgreSQL's JSONB indexing will allow for fast retrieval of complex user criteria.
+    overview : >
+      Every app comes with its own set of challenges, but Bargain Alert introduces new complexities for me as a developer. From building a robust and scalable email notification system to adhering to official API guidelines, this project pushes me into uncharted territory. These challenges provide an exciting opportunity to expand my skill set and demonstrate my ability to tackle advanced problems with thoughtful and effective solutions.
+    challenges:
+      - title : 'Building a scalable notification system'
+        description : >
+          One significant anticipated challenge is ensuring the app's notification system remains efficient and scalable as the user base grows. With notifications potentially being sent every five minutes and customized for each user's criteria, there's a risk of overwhelming the system, particularly as the database grows larger and the number of simultaneous users increases. To tackle this, I plan to implement a queue-based messaging system, such as Azure Service Bus, to manage email notifications efficiently. By decoupling the notification generation process from the main application flow, I can ensure consistent performance and prevent bottlenecks. Additionally, optimizing database queries and leveraging PostgreSQL's JSONB indexing will allow for fast retrieval of complex user criteria.
 
-    - >
-      Another anticipated challenge is handling the complex search filters and criteria defined by users. Features like multi-category searches, proximity-based seller filtering, and advanced Boolean logic require intricate database queries that can quickly become computationally expensive. To address this, I plan to use a combination of stored procedures and materialized views in PostgreSQL to precompute and cache commonly used queries. This will significantly reduce processing time and allow the app to deliver real-time results without compromising performance.
+      - title : 'Handling the exclusive features'
+        description : >
+          Another anticipated challenge is handling the complex search filters and criteria defined by users. Features like multi-category searches, proximity-based seller filtering, and advanced Boolean logic require intricate database queries that can quickly become computationally expensive. To address this, I plan to use a combination of stored procedures and materialized views in PostgreSQL to precompute and cache commonly used queries. This will significantly reduce processing time and allow the app to deliver real-time results without compromising performance.
 
-    - >
-      A third challenge lies in ensuring robust API integration with TradeMe's official APIs, which involves complying with their strict terms of service and handling potential API rate limits. Since notifications rely heavily on frequent API calls, managing these limits while maintaining real-time functionality will be crucial. To overcome this, I plan to implement caching mechanisms to store recent API results and avoid redundant calls. Additionally, I'll build a dynamic scheduling system that optimally spaces API requests based on user activity and TradeMe's rate limits. This ensures compliance with their guidelines while delivering timely updates to users.
+      - title : 'Precisely following TradeMe''s API guidelines at every step'
+        description : >
+          A third challenge lies in ensuring robust API integration with TradeMe's official APIs, which involves complying with their strict terms of service and handling potential API rate limits. Since notifications rely heavily on frequent API calls, managing these limits while maintaining real-time functionality will be crucial. To overcome this, I plan to implement caching mechanisms to store recent API results and avoid redundant calls. Additionally, I'll build a dynamic scheduling system that optimally spaces API requests based on user activity and TradeMe's rate limits. This ensures compliance with their guidelines while delivering timely updates to users.
 
 
 
