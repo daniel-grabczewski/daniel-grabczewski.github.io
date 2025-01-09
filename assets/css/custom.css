@@ -111,10 +111,9 @@ p {
     font-size : 16px;
   }
 
-  p {
+  p li {
     font-size : 16px;
   }
-
 
   .portfolio-section-title-container {
     text-align: center; /* Center the text */
@@ -260,4 +259,14 @@ p {
 
 figcaption {
   font-size : 15px !important;
+}
+
+.project-page-list li {
+  color : #414141;
+  list-style-type : disc;
+  margin-left : 16px;
+}
+
+.title-paragraph-container {
+  margin-bottom : 50px;
 }
