@@ -83,10 +83,16 @@
 </div>
 
 <p class="project-page-description">{{ page.description }}</p>
+{% if page.code_url != '' or page.demo_url != '' %}
 <div class = "project-page-buttons-container">
-<a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
-<a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+  {% if page.demo_url != '' %}
+    <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+  {% endif %}
+  {% if page.code_url != '' %}
+    <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+    {% endif %}
 </div>
+{% endif %}
 </div>
 </div>
 
@@ -160,11 +166,20 @@
 <p>{{ lesson_learned }}</p>
 {% endfor %}
 
+{% if page.code_url != '' or page.demo_url != '' %}
 <div class = "project-page-buttons-container">
-  <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
-  <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
-  </div>
+  {% if page.demo_url != '' %}
+    <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+  {% endif %}
+  {% if page.code_url != '' %}
+    <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+    {% endif %}
 </div>
+{% endif %}
+
+</div>
+
+
 
 {% endif %}
 
@@ -249,6 +264,17 @@
       <p>{{challenge.description}}</p>
     </div>
     {% endfor %}
+    {% if page.code_url != '' or page.demo_url != '' %}
+    <div class = "project-page-buttons-container">
+      {% if page.demo_url != '' %}
+        <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+      {% endif %}
+      {% if page.code_url != '' %}
+        <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+        {% endif %}
+    </div>
+{% endif %}
+
     </div>
   </div>
 
