@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en" class="navbar-compensation">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>{{ page.title }}</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <script src="/assets/js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+      <!-- LOADER -->
+      <div id="preloader">
+        <div id="main-ld">
+            <div id="loader"></div>  
+        </div>
+    </div>
+    <!-- END LOADER -->
+
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-shrink fixed-top">
+          <div class="container" style="margin-right: 10px;">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class = "section" style = "padding-bottom : 0px;">
+          <div class = "container project-page-container" style="padding-top : 0px;">
+<h1 class="project-page-h1">{{ page.title }}</h1>
+<div class="project-page-technologies">
+<ul>
+  {% for technology in page.technologies %}
+    <li>{{ technology }}</li>
+  {% endfor %}
+</ul>
+</div>
+
+<p class="project-page-description">{{ page.description }}</p>
+{% if page.code_url != '' or page.demo_url != '' %}
+<div class = "project-page-buttons-container">
+  {% if page.demo_url != '' %}
+    <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+  {% endif %}
+  {% if page.code_url != '' %}
+    <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+    {% endif %}
+</div>
+{% endif %}
+</div>
+</div>
+
+{% if page.in_development == 'false' %}
+
+
+  {% if page.visuals.demo_video %}
+    <div class = "container project-page-container">
+    <!-- <h2 class="project-page-h2">Demo Video</h2> -->
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="{{ page.visuals.demo_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    </div>
+  {% endif %}
+
+  <div class = "container project-page-container">
+    <h2 class="project-page-h2" style="margin-bottom : 15px;">Key Features</h2>
+    {% for key_feature in page.key_features %}
+    {% assign mod_result = forloop.index0 | modulo: 2 %}
+        <div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
+          <h2 class="mobile-title">{{ key_feature.title }}</h2>
+          <div class="portfolio-left-container">
+            <h2 class="desktop-title">{{ key_feature.title }}</h2>
+            <p class="project-description">{{ key_feature.description }}</p>
+          </div>
+          <div class="portfolio-right-container">
+            <figcaption>{{ key_feature.caption }}</figcaption>
+            {% if key_feature.image contains '.mp4' %}
+              <video class="portfolio-image" autoplay loop muted playsinline style="width: 100%; height: auto;">
+                <source src="{{ key_feature.image }}" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            {% else %}
+              <img class="portfolio-image" src="{{ key_feature.image }}" alt="{{ key_feature.title }}">
+            {% endif %}
+          </div>
+        </div>
+    {% endfor %}
+
+
+
+
+  </div>
+  <div class="grey-background">
+  <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
+  <h2  class="project-page-h2">Development Process</h2>
+  <p>{{ page.development_process.overview }}</p>
+  {% if page.visuals.dev_video %}
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom : 50px;"><iframe src="{{ page.visuals.dev_video }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  {% endif %}
+
+  {% for step in page.development_process.steps %}
+  {% assign mod_result = forloop.index0 | modulo: 2 %}
+  <div class="step-container-margin portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}" >
+    <h2 class="mobile-title">{{ step.title }}</h2>
+    <div class="portfolio-left-container">
+      <h2 class="desktop-title">{{ step.title }}</h2>
+      <p class="project-description">{{ step.description }}</p>
+    </div>
+    <div class="portfolio-right-container">
+        <figcaption>{{ step.caption }}</figcaption>
+        <img class="portfolio-image" src="{{ step.image }}" alt="{{ step.title }}">
+    </div>
+
+  </div>
+  {% endfor %}
+  </div>
+</div>
+
+<div class = "container project-page-container section" style = "padding-bottom : 0px !important; padding-top : 50px;">
+<h2 class="project-page-h2">Lessons Learned</h2>
+{% for lesson_learned in page.development_process.lessons_learned %}
+<p>{{ lesson_learned }}</p>
+{% endfor %}
+
+{% if page.code_url != '' or page.demo_url != '' %}
+<div class = "project-page-buttons-container">
+  {% if page.demo_url != '' %}
+    <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+  {% endif %}
+  {% if page.code_url != '' %}
+    <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+    {% endif %}
+</div>
+{% endif %}
+
+</div>
+
+
+
+{% endif %}
+
+{% if page.in_development == 'true' %}
+<div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
+
+  <h2 class="project-page-h2" style="margin-bottom : 35px;">More about this app</h2>
+
+  {% for key_feature in page.key_features %}
+  {% assign mod_result = forloop.index0 | modulo: 2 %}
+      <div class="step-container-margin {% if key_feature.use_bullet_points contains 'true' %} step-container-margin {% endif %} portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
+        <h2 class="mobile-title">{{ key_feature.title }}</h2>
+        <div class="portfolio-left-container">
+          <h2 class="desktop-title">{{ key_feature.title }}</h2>
+          <p class="project-description">{{ key_feature.description }}</p>
+          
+        </div>
+        <div class="portfolio-right-container">
+          <figcaption>{{ key_feature.caption }}</figcaption>
+          {% if key_feature.image contains '.mp4' %}
+            <video class="portfolio-image" autoplay loop muted playsinline style="width: 100%; height: auto;">
+              <source src="{{ key_feature.image }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          {% else %}
+            <img class="portfolio-image" src="{{ key_feature.image }}" alt="{{ key_feature.title }}">
+          {% endif %}
+        </div>
+        <div>
+          {% if key_feature.use_bullet_points contains 'true' %}
+          <ul class = "project-page-list">
+            {% for bullet_point in key_feature.bullet_points %}
+              <li>{{bullet_point}}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+      
+  {% endfor %}
+</div>
+
+<div class="grey-background">
+  <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
+  <h2  class="project-page-h2">Choice of technologies</h2>
+  <p class="title-paragraph-container">{{ page.choice_of_technologies.overview }}</p>
+  {% for technology in page.choice_of_technologies.technologies %}
+  <div class="title-paragraph-container">
+    <h2 class="desktop-title">{{technology.title}}</h2>
+    <h2 class="mobile-title">{{technology.title}}</h2>
+    <p>{{technology.description}}</p>
+  </div>
+  {% endfor %}
+  </div>
+</div>
+
+<div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
+  <h2 class="project-page-h2">Development process</h2>
+  <p class="title-paragraph-container">{{ page.development_process.overview }}</p>
+  {% for step in page.development_process.steps %}
+  <div class="title-paragraph-container">
+    <h2 class="desktop-title">{{step.title}}</h2>
+    <h2 class="mobile-title">{{step.title}}</h2>
+    <ul class = "project-page-list">
+    {% for bullet_point in step.description %}
+        <li>{{bullet_point}}</li>
+    {% endfor %}
+  </ul>
+  </div>
+  {% endfor %}
+  </div>
+
+
+  <div class="grey-background">
+    <div class="container project-page-container" style = "padding-bottom : 5px; padding-top : 50px">
+    <h2 class="project-page-h2">Anticipated challenges</h2>
+    <p class="title-paragraph-container">{{ page.anticipated_challenges.overview }}</p>
+    {% for challenge in page.anticipated_challenges.challenges %}
+    <div class="title-paragraph-container">
+      <h2 class="desktop-title">{{challenge.title}}</h2>
+    <h2 class="mobile-title">{{challenge.title}}</h2>
+      <p>{{challenge.description}}</p>
+    </div>
+    {% endfor %}
+    {% if page.code_url != '' or page.demo_url != '' %}
+    <div class = "project-page-buttons-container">
+      {% if page.demo_url != '' %}
+        <a href="{{ page.demo_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Live Demo</span></a>
+      {% endif %}
+      {% if page.code_url != '' %}
+        <a href="{{ page.code_url }}" class="sim-btn btn-hover-new" target="_blank" data-text="View"><span>Source code</span></a>
+        {% endif %}
+    </div>
+{% endif %}
+
+    </div>
+  </div>
+
+{% endif %}
+
+
+    <!-- CONTACT -->
+    <div id="contact" class="section db">
+      <div class="container">
+        <div class="section-title text-left">
+          <h3>Contact</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="contact_form">
+              <div id="message"></div>
+              <p>danielgrabczewski@gmail.com</p>
+              <p>022 646 1855</p>
+              <a href="https://www.linkedin.com/in/daniel-grabczewski/">LinkedIn</a>
+              <p></p>
+              <a href="https://github.com/daniel-grabczewski/">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="copyrights">
+  <div class="container">
+    <div class="footer-distributed">
+      <div class="footer-left">
+        <p class="footer-links">
+          <a href="/">Home</a>
+          <a href="/#about">About</a>
+          <a href="/#portfolio">Portfolio</a>
+          <a href="/#contact">Contact</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ALL JS FILES -->
+<script src="/assets/js/all.js"></script>
+<!-- Removed data.js and script.js since they are no longer needed -->
+<!-- <script src="data.js"></script> -->
+<!-- <script src="script.js"></script> -->
+<!-- Camera Slider -->
+
+<!-- <script src="/assets/js/jquery.mobile.customized.min.js"></script> FILE NOT FOUND?--> 
+<script src="/assets/js/jquery.easing.1.3.js"></script> 
+<script src="/assets/js/parallaxie.js"></script>
+<script src="/assets/js/headline.js"></script>
+<!-- Contact form JavaScript -->
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+<script src="/assets/js/contact_me.js"></script>
+<!-- ALL PLUGINS -->
+<script src="/assets/js/custom.js"></script>
+<script src="/assets/js/jquery.vide.js"></script>
+</body>
+</html>

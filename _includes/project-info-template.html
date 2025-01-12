@@ -1,23 +1,45 @@
 {% assign mod_result = forloop.index0 | modulo: 2 %}
 <div class="portfolio-project-container{% if mod_result == 1 %} reverse-project-containers{% endif %}">
-  <h2 class="mobile-title">{{ project.title }}</h2>
+  <h2 class="mobile-title">
+    {{ project.title }}
+    {% if project.in_development == 'true' %}
+      <br>(In Development)
+    {% endif %}
+  </h2>
   <div class="portfolio-left-container">
-    <h2 class="desktop-title">{{ project.title }}</h2>
+    <h2 class="desktop-title">
+      {{ project.title }}
+      {% if project.in_development == 'true' %}
+        <br>(In Development)
+      {% endif %}
+    </h2>
     <p class="project-description">{{ project.description }}</p>
     <p><strong>Technologies used:</strong> {{ project.technologies }}</p>
-    {% if project.demoLink %}
+    {% if project.demoLink != '' %}
       <a href="{{ project.demoLink }}" class="sim-btn btn-hover-new" target="_blank" style="margin-left: 0;" data-text="View"><span>Live Demo</span></a>
     {% endif %}
+    {% if project.has_project_page == 'true' %}
+    <a href="/projects/{{ project.slug }}" class="sim-btn btn-hover-new" target="_blank" style="margin-left: 0;" data-text="View"><span>Read more</span></a>
+    {% endif %}
+    {% if project.has_project_page == 'false' %}
     <a href="{{ project.githubLink }}" class="sim-btn btn-hover-new" target="_blank" style="margin-left: 0;" data-text="View"><span>Source Code</span></a>
+    {% endif %}
   </div>
   <div class="portfolio-right-container{% if project.demoLink %} has-demo-link{% endif %}">
-    {% if project.demoLink %}
+    {% if project.demoLink != '' %}
       <a href="{{ project.demoLink }}" target="_blank">
         <img class="portfolio-image" src="{{ project.image }}" alt="{{ project.title }}">
         <span class="view-demo-text">View Demo</span>
-      </a>
-    {% else %}
-      <img class="portfolio-image" src="{{ project.image }}" alt="{{ project.title }}">
+      </a>  
+    {% endif %}
+    {% if project.has_project_page == 'true' and project.demoLink == '' %}
+      <a href="/projects/{{ project.slug }}" target="_blank">
+        <img class="portfolio-image" src="{{ project.image }}" alt="{{ project.title }}">
+        <span class="view-demo-text">Read More</span>
+      </a>  
+    {% endif %}
+    {% if project.has_project_page == 'false' and project.demoLink == '' %}
+      <img class="portfolio-image" style="transition : none; filter: none; cursor : auto;" src="{{ project.image }}" alt="{{ project.title }}">
     {% endif %}
   </div>
 </div>
