@@ -356,7 +356,7 @@
       description: >
         Apart from learning how to work with offical APIs, I am leveraging this project to further enhance my skills in technologies I'm already proficient with, such as React and ASP.NET Core, while mastering new ones like PostgreSQL and SendGrid. The opportunity to explore these tools in a real-world context ensures I remain at the forefront of modern development practices. For me, every project is a chance to grow, innovate, and refine my craft. And Bargain Alert is no exception!
       image: '/assets/images/bargain-hunter-project/stack-diagram.svg'
-      caption: 'Architecture diagram for Bargin Hunter''s technologies'
+      caption: 'Architecture diagram for Bargain Hunter''s technologies'
 
     # Add more features as needed
 
