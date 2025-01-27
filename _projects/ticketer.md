@@ -69,7 +69,7 @@ key_features:
   image: /assets/images/ticketer-project/seamless-account-management.png
   caption: Screenshot of the Ticketer login page
 visuals:
-  demo_video: https://www.loom.com/embed/38f2ba3f2177432c8578c549114e7307?sid=820badd7-2327-476a-bf8a-ba81c6fc3ecb
+  demo_video: https://www.loom.com/embed/d4b13274afab4d06a001c13b30f95e5e?sid=0b7e99fe-ae02-43e8-922f-435b384e931c
   dev_video: https://www.loom.com/embed/51c2dfa0c7bc4a0696bd262d7a3fb626?sid=bd87c4f6-f438-43f9-b857-a27a224548c7
   thumbnail: /assets/images/project-thumbnail.svg
 development_process:
