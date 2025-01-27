@@ -78,7 +78,7 @@ key_features:
 
     '
   image: /assets/images/bargain-hunter-project/stack-diagram.svg
-  caption: Architecture diagram for Bargin Hunter's technologies
+  caption: Architecture diagram for Bargain Hunter's technologies
 choice_of_technologies:
   overview: 'Selecting the right tech stack for Bargain Alert was a meticulous process,
     grounded in research and careful consideration of the app''s requirements. Each
