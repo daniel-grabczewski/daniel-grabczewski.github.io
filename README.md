@@ -2,6 +2,10 @@
 
 Welcome to my portfolio. My name is Daniel :)
 
+## To be able to use jekyll to run the app:
+Make the enable_jekyll script executable `chmod +x enable_jekyll.sh`
+Run the script `source enable_jekyll.sh`
+
 ## To be able to use the python script with yaml:
 `pip install pyyaml`
 `python generate_projects.py`
