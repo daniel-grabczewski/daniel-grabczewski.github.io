@@ -29,7 +29,7 @@
   technologies: 'React, Typescript, C#, ASP.NET Core, PostgreSQL, SendGrid, Azure Cloud Services, Docker'
   githubLink: ''
   demoLink: ''
-  image: '/assets/images/bargain-hunter-project/bargain-hunter-thumbnail.svg'
+  image: '/assets/images/bargain-alert-project/bargain-alert-thumbnail.svg'
 
 - title: 'Bnana Online Fruit Store'
   slug : 'bnana'

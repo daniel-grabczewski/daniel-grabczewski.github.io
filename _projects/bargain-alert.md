@@ -9,8 +9,8 @@ description: 'Bargain Alert is an app in development that is designed to improve
   exact preferences. With features that go beyond TradeMe''s native services, Bargain
   Alert ensures users never miss a deal by offering unmatched flexibility, speed,
   and precision in managing their search criteria. Whether you''re a casual bargain
-  hunter or a seasoned deal enthusiast, Bargain Alert is your ultimate tool for securing
-  the best deals—on the go, any time, anywhere.
+  searcher or a seasoned deal enthusiast, Bargain Alert is your ultimate tool for
+  securing the best deals—on the go, any time, anywhere.
 
   '
 technologies:
@@ -25,7 +25,7 @@ technologies:
 code_url: ''
 demo_url: ''
 key_features:
-- title: Who is Bargain Hunter for?
+- title: Who is Bargain Alert for?
   description: 'Bargain Alert is for users who want to find the best deals on TradeMe
     without constantly refreshing pages or manually checking for updates. While TradeMe
     offers a daily notification system, it''s far too infrequent to compete for top-tier
@@ -36,8 +36,8 @@ key_features:
     your day, this app will seamlessly fit into your busy lifestyle.
 
     '
-  image: /assets/images/bargain-hunter-project/notification-page.svg
-  caption: Design for Bargain Hunter's listing notifications page
+  image: /assets/images/bargain-alert-project/notification-page.svg
+  caption: Design for Bargain Alert's listing notifications page
 - title: Exclusive features not found on TradeMe
   use_bullet_points: 'true'
   description: 'Bargain Alert offers a host of unique and advanced features that go
@@ -56,8 +56,8 @@ key_features:
   - Seller proximity within a custom radius
   - Personalized relevance scoring for listings
   - Live updates for new comments on listings of interest
-  image: /assets/images/bargain-hunter-project/bargain-hunter-auto-search.svg
-  caption: Design for Bargain Hunter's auto-search page
+  image: /assets/images/bargain-alert-project/bargain-alert-auto-search.svg
+  caption: Design for Bargain Alert's auto-search page
 - title: Why I'm building this app
   description: "Building Bargain Alert is a pivotal step in my journey as a software\
     \ developer, offering an opportunity to deepen my expertise while expanding into\
@@ -66,8 +66,8 @@ key_features:
     \ application approval. Navigating the compliance requirements, terms of service,\
     \ and developer guidelines is a monumental learning experience that strengthens\
     \ my understanding of building enterprise-grade applications. \n"
-  image: /assets/images/bargain-hunter-project/home-page.svg
-  caption: Design for Bargain Hunter's home page
+  image: /assets/images/bargain-alert-project/home-page.svg
+  caption: Design for Bargain Alert's home page
 - title: Improving my technical knowledge
   description: 'Apart from learning how to work with offical APIs, I am leveraging
     this project to further enhance my skills in technologies I''m already proficient
@@ -77,8 +77,8 @@ key_features:
     is a chance to grow, innovate, and refine my craft. And Bargain Alert is no exception!
 
     '
-  image: /assets/images/bargain-hunter-project/stack-diagram.svg
-  caption: Architecture diagram for Bargain Hunter's technologies
+  image: /assets/images/bargain-alert-project/stack-diagram.svg
+  caption: Architecture diagram for Bargain Alert's technologies
 choice_of_technologies:
   overview: 'Selecting the right tech stack for Bargain Alert was a meticulous process,
     grounded in research and careful consideration of the app''s requirements. Each
